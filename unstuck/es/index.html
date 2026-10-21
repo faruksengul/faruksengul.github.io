@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tinydo: agenda TDAH, pasos pequeños y temporizador visual</title>
+<meta name="description" content="Tinydo es una agenda TDAH para iPhone y iPad: la IA divide tus tareas en pasos pequeños, un temporizador visual te acompaña y los recordatorios te siguen.">
+<link rel="canonical" href="https://faruksengul.github.io/unstuck/es/">
+<link rel="alternate" hreflang="en" href="https://faruksengul.github.io/unstuck/">
+<link rel="alternate" hreflang="es" href="https://faruksengul.github.io/unstuck/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://faruksengul.github.io/unstuck/pt-br/">
+<link rel="alternate" hreflang="fr" href="https://faruksengul.github.io/unstuck/fr/">
+<link rel="alternate" hreflang="de" href="https://faruksengul.github.io/unstuck/de/">
+<link rel="alternate" hreflang="it" href="https://faruksengul.github.io/unstuck/it/">
+<link rel="alternate" hreflang="nl" href="https://faruksengul.github.io/unstuck/nl/">
+<link rel="alternate" hreflang="tr" href="https://faruksengul.github.io/unstuck/tr/">
+<link rel="alternate" hreflang="ja" href="https://faruksengul.github.io/unstuck/ja/">
+<link rel="alternate" hreflang="ko" href="https://faruksengul.github.io/unstuck/ko/">
+<link rel="alternate" hreflang="x-default" href="https://faruksengul.github.io/unstuck/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Gokche Tech">
+<meta name="apple-itunes-app" content="app-id=6824203447">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2FAF9">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F1716">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" sizes="96x96" href="../favicon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tinydo">
+<meta property="og:title" content="Tinydo: agenda TDAH, pasos pequeños y temporizador visual">
+<meta property="og:description" content="Tinydo es una agenda TDAH para iPhone y iPad: la IA divide tus tareas en pasos pequeños, un temporizador visual te acompaña y los recordatorios te siguen.">
+<meta property="og:url" content="https://faruksengul.github.io/unstuck/es/">
+<meta property="og:image" content="https://faruksengul.github.io/unstuck/es/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Icono de la app Tinydo y dos pantallas de iPhone: Cuéntaselo a Tiny y un temporizador visual.">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tinydo: agenda TDAH, pasos pequeños y temporizador visual">
+<meta name="twitter:description" content="Tinydo es una agenda TDAH para iPhone y iPad: la IA divide tus tareas en pasos pequeños, un temporizador visual te acompaña y los recordatorios te siguen.">
+<meta name="twitter:image" content="https://faruksengul.github.io/unstuck/es/og.png">
+<meta name="twitter:image:alt" content="Icono de la app Tinydo y dos pantallas de iPhone: Cuéntaselo a Tiny y un temporizador visual.">
+<style>:root{--bg:#F2FAF9;--surface:#FFFFFF;--elev:#E3F2F0;--ink:#14302D;--quiet:#4A625F;--accent:#3CC4B8;--accent-soft:#D9F3EF;--accent-ink:#0B6E66;--on-accent:#0F2422;--focus-ink:#3F4FBF;--line:rgba(20,48,45,.13);--deep:#04706B;--on-deep:#FFFFFF;--shadow:rgba(4,60,56,.16);color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#0F1716;--surface:#172120;--elev:#1F2C2A;--ink:#E6F3F1;--quiet:#9DB5B1;--accent:#5AD6CA;--accent-soft:#18332F;--accent-ink:#6FDDD2;--on-accent:#0B1A18;--focus-ink:#AAB5FF;--line:rgba(230,243,241,.13);--deep:#123F3B;--on-deep:#E6F3F1;--shadow:rgba(0,0,0,.4)}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+:lang(ja) body,body:lang(ja){font-family:-apple-system,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Meiryo",system-ui,sans-serif;line-height:1.75;line-break:strict}
+:lang(ko) body,body:lang(ko){font-family:-apple-system,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;line-height:1.75;word-break:keep-all}
+img{max-width:100%;height:auto}
+a{color:var(--accent-ink);text-underline-offset:.15em}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--focus-ink);outline-offset:2px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;z-index:9;background:var(--surface);color:var(--ink);padding:10px 14px;border-radius:10px}
+.skip:focus{left:8px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.top{display:flex;align-items:center;gap:8px;max-width:1080px;margin:0 auto;padding:12px 20px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:700;font-size:19px;min-height:44px}
+.brand img{width:32px;height:32px}
+.links{display:none;gap:22px;margin-left:auto}
+.links a{color:var(--quiet);text-decoration:none;font-size:15px}
+.links a:hover{color:var(--ink)}
+.lang{position:relative;margin-left:auto}
+.lang summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;min-height:44px;padding:0 10px;border-radius:12px;color:var(--quiet);font-size:15px}
+.lang summary::-webkit-details-marker{display:none}
+.lang summary:hover{background:var(--accent-soft)}
+.lang svg{width:18px;height:18px}
+.lang ul{position:absolute;right:0;top:100%;z-index:5;min-width:210px;margin:6px 0 0;padding:6px;list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 32px var(--shadow)}
+.lang li a{display:block;padding:9px 12px;border-radius:10px;color:var(--ink);text-decoration:none}
+.lang li a:hover{background:var(--accent-soft)}
+.lang li a[aria-current]{color:var(--accent-ink);font-weight:700}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:14px 26px;border-radius:16px;background:var(--accent);color:var(--on-accent);font-weight:700;font-size:17px;text-decoration:none;box-shadow:0 8px 22px var(--shadow)}
+.btn:hover{filter:brightness(1.05)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn.small{min-height:44px;padding:8px 16px;font-size:15px;border-radius:12px;box-shadow:none}
+.top .btn.small{display:none}
+@media (min-width:760px){.links{display:flex}.lang{margin-left:6px}.top .btn.small{display:inline-flex}}
+h1,h2{font-family:"New York",ui-serif,Georgia,"Times New Roman",serif;font-weight:700;line-height:1.15;letter-spacing:-.01em}
+:lang(ja) h1,:lang(ja) h2,:lang(ko) h1,:lang(ko) h2{font-family:inherit;letter-spacing:0}
+h1,h2,h3{text-wrap:balance}
+p,li,dd{text-wrap:pretty}
+:lang(ja) h1,:lang(ja) h2,:lang(ja) h3{word-break:auto-phrase;overflow-wrap:anywhere}
+h1{font-size:clamp(2rem,7vw,3.2rem);margin:0 0 18px}
+h2{font-size:clamp(1.55rem,4.4vw,2.15rem);margin:0 0 18px}
+h3{font-size:1.18rem;line-height:1.35;margin:0 0 8px}
+.hero{display:grid;gap:36px;padding:20px 0 40px}
+.eyebrow{display:inline-block;margin:0 0 16px;padding:6px 12px;border-radius:999px;background:var(--accent-soft);color:var(--accent-ink);font-weight:600;font-size:14px}
+.lede{font-size:clamp(1.15rem,2.7vw,1.32rem);margin:0 0 12px}
+.sub{color:var(--quiet);margin:0 0 26px}
+.note{color:var(--quiet);font-size:14px;margin:12px 0 0}
+.pills{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:22px 0 0;padding:0}
+.pills li{padding:6px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:14px}
+.shot{margin:0;justify-self:center}
+.shot img{display:block;width:min(260px,72vw);border-radius:30px;box-shadow:0 22px 50px var(--shadow)}
+@media (min-width:860px){.hero{grid-template-columns:1.3fr .7fr;align-items:center;padding:40px 0 64px}}
+section{padding:36px 0}
+.band{background:var(--elev)}
+.intro{color:var(--quiet);max-width:680px;margin:-6px 0 20px}
+.facts{display:grid;gap:12px;margin:0}
+.facts div{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:16px 18px}
+.facts dt{font-weight:700;font-size:14px;color:var(--accent-ink);margin:0 0 4px}
+.facts dd{margin:0}
+@media (min-width:720px){.facts{grid-template-columns:1fr 1fr}.facts div:last-child:nth-child(odd){grid-column:1/-1}}
+.feature{display:grid;gap:24px;padding:30px 0;border-top:1px solid var(--line)}
+.feature:first-of-type{border-top:0;padding-top:6px}
+.feature p{margin:0 0 12px;max-width:660px}
+.feature ul{margin:0 0 12px;padding-left:1.2em;max-width:660px}
+.feature li{margin:4px 0}
+.feature .shot img{width:min(230px,64vw)}
+@media (min-width:860px){.feature.has-shot{grid-template-columns:1fr 280px;align-items:center;gap:48px}.feature.flip .shot{order:-1}}
+.cols{display:grid;gap:16px}
+@media (min-width:860px){.cols{grid-template-columns:1fr 1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:22px 24px}
+.card h3{font-family:"New York",ui-serif,Georgia,serif;font-size:1.4rem}
+:lang(ja) .card h3,:lang(ko) .card h3{font-family:inherit}
+.check{list-style:none;margin:0;padding:0}
+.check li{position:relative;margin:9px 0;padding-left:28px}
+.check li::before{content:"";position:absolute;left:4px;top:.5em;width:12px;height:7px;border-left:2.5px solid var(--accent-ink);border-bottom:2.5px solid var(--accent-ink);transform:rotate(-45deg)}
+.dash li::before{border-bottom:0;top:.8em;width:10px;height:0;border-left:0;border-top:2.5px solid var(--quiet);transform:none}
+.diff{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+@media (min-width:860px){.diff{grid-template-columns:1fr 1fr}}
+.diff li{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:18px 20px}
+.diff strong{display:block;margin-bottom:4px}
+.plan .price{color:var(--quiet);margin:-2px 0 10px}
+.plan.pro{border:2px solid var(--accent)}
+.fine{color:var(--quiet);font-size:14px;max-width:760px}
+.qa{padding:18px 0;border-top:1px solid var(--line)}
+.qa:first-of-type{border-top:0}
+.qa h3{font-size:1.1rem}
+.qa p{margin:0;max-width:740px}
+.final{margin:16px 0 48px;padding:40px 24px;border-radius:28px;background:var(--deep);color:var(--on-deep);text-align:center}
+.final h2{margin-bottom:10px}
+.final p{margin:0 auto 22px;max-width:560px}
+footer{border-top:1px solid var(--line);padding:28px 0 56px;color:var(--quiet);font-size:15px}
+footer p{margin:0 0 10px}
+footer a{color:var(--quiet)}
+footer a:hover{color:var(--ink)}
+.flinks,.flangs{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;margin:0 0 14px;padding:0}
+.crumbs{font-size:14px;color:var(--quiet);margin:8px 0 18px}
+.crumbs ol{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0}
+.crumbs li+li::before{content:"\203A";margin-right:6px}
+.doc{max-width:760px;margin:0 auto;padding:8px 20px 72px}
+.doc h1{font-size:clamp(1.9rem,6vw,2.6rem);margin-bottom:8px}
+.doc h2{font-size:1.35rem;margin:36px 0 8px}
+.doc .meta{color:var(--quiet);margin:0 0 28px}
+.table{width:100%;border-collapse:collapse;font-size:15px}
+.table th,.table td{text-align:left;vertical-align:top;padding:10px 8px;border-bottom:1px solid var(--line)}
+@media (max-width:700px){.table thead{display:none}.table tr{display:block;margin:0 0 12px;padding:8px 14px;background:var(--surface);border:1px solid var(--line);border-radius:16px}.table td{display:block;border:0;padding:6px 0}.table td::before{content:attr(data-label);display:block;font-size:13px;font-weight:700;color:var(--accent-ink)}}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://faruksengul.github.io/unstuck/#org","name":"Gokche Tech","url":"https://faruksengul.github.io/unstuck/","email":"support@gokchetech.com","address":{"@type":"PostalAddress","addressCountry":"TR"},"contactPoint":{"@type":"ContactPoint","contactType":"customer support","email":"support@gokchetech.com","url":"https://faruksengul.github.io/unstuck/support/"}},{"@type":"WebSite","@id":"https://faruksengul.github.io/unstuck/#website","url":"https://faruksengul.github.io/unstuck/","name":"Tinydo","publisher":{"@id":"https://faruksengul.github.io/unstuck/#org"},"inLanguage":["en","es","pt-BR","fr","de","it","nl","tr","ja","ko"]},{"@type":"WebPage","@id":"https://faruksengul.github.io/unstuck/es/#webpage","url":"https://faruksengul.github.io/unstuck/es/","name":"Tinydo: agenda TDAH, pasos pequeños y temporizador visual","description":"Tinydo es una agenda TDAH para iPhone y iPad: la IA divide tus tareas en pasos pequeños, un temporizador visual te acompaña y los recordatorios te siguen.","inLanguage":"es","isPartOf":{"@id":"https://faruksengul.github.io/unstuck/#website"},"about":{"@id":"https://faruksengul.github.io/unstuck/es/#app"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://faruksengul.github.io/unstuck/es/og.png","width":1200,"height":630},"dateModified":"2026-10-21"},{"@type":"MobileApplication","@id":"https://faruksengul.github.io/unstuck/es/#app","name":"Tinydo: Agenda TDAH y Rutinas","alternateName":"Tinydo","description":"Tinydo es una agenda y app de concentración pensada para el TDAH, para iPhone y iPad. Cuéntale a Tiny lo que pasa y la IA lo divide en pasos pequeñitos. Un temporizador visual, rutinas diarias, recordatorios de medicación y de beber agua, sonidos para concentrarte y seguimientos amables te ayudan a hacerlo. Sin cuenta, sin anuncios, sin rastreo.","url":"https://faruksengul.github.io/unstuck/es/","applicationCategory":"ProductivityApplication","operatingSystem":"iOS 18.0 or later, iPadOS 18.0 or later","availableOnDevice":"iPhone, iPad","downloadUrl":"https://apps.apple.com/app/id6824203447","installUrl":"https://apps.apple.com/app/id6824203447","sameAs":"https://apps.apple.com/app/id6824203447","image":"https://faruksengul.github.io/unstuck/icon-512.png","screenshot":["https://faruksengul.github.io/unstuck/img/es/tell-tiny.jpg","https://faruksengul.github.io/unstuck/img/es/visual-timer.jpg","https://faruksengul.github.io/unstuck/img/es/medication-reminder.jpg","https://faruksengul.github.io/unstuck/img/es/change-the-plan.jpg"],"featureList":["División de tareas con IA (Cuéntaselo a Tiny): convierte una tarea abrumadora en pasos de pocos minutos","Planes de varias semanas con ritmo suave, constante o intenso en los días que elijas","Temporizador visual, también en la pantalla bloqueada y en la Dynamic Island (actividad en vivo)","«Me he atascado, hazlo más pequeño»: divide un paso en micropasos de 1 a 3 minutos","Rutinas con recordatorios; en iOS 26 pueden sonar como una alarma","Recordatorios de medicación con «Me lo he tomado», Siri, registro de 7 días y seguimiento amable","Sonidos para concentrarte: ruido marrón, ruido rosa, lluvia, olas, chimenea","Body doubling: Tiny trabaja a tu lado, más un contador anónimo de personas concentradas ahora","Seguimiento que pregunta qué se cruzó y cambia el plan en lugar de insistir","Descansos de 1 a 3 días que no rompen tu racha","Planes de estudio con cuenta atrás para el examen y repaso tras cada sesión","Datos sobre tus mejores momentos, calculados en el dispositivo","Estimaciones de tiempo que aprenden cuánto te llevan las cosas","Widgets, centro de control, Siri y Atajos","Sincronización con iCloud entre iPhone y iPad","Sin cuenta, sin anuncios, sin rastreo; IA solo con tu permiso"],"keywords":"agenda TDAH, dividir tareas TDAH, temporizador visual, ceguera temporal, body doubling, recordatorio de medicación, rutinas, procrastinación, temporizador de concentración, plan de estudio","inLanguage":["en","ar","cs","da","de","el","es","es-419","fi","fr","he","hu","id","it","ja","ko","nb","nl","pl","pt-BR","pt-PT","ro","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],"isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free","availability":"https://schema.org/InStock","url":"https://apps.apple.com/app/id6824203447","description":"Descarga gratuita. Suscripción opcional Tinydo Pro de renovación automática (semanal, mensual o anual) como compra dentro de la app, con 3 días de prueba gratis para nuevos suscriptores."},"publisher":{"@id":"https://faruksengul.github.io/unstuck/#org"},"author":{"@id":"https://faruksengul.github.io/unstuck/#org"}},{"@type":"FAQPage","@id":"https://faruksengul.github.io/unstuck/es/#faq","url":"https://faruksengul.github.io/unstuck/es/","inLanguage":"es","isPartOf":{"@id":"https://faruksengul.github.io/unstuck/es/#webpage"},"mainEntity":[{"@type":"Question","name":"¿Qué es Tinydo?","acceptedAnswer":{"@type":"Answer","text":"Tinydo (en el App Store, «Tinydo: Agenda TDAH y Rutinas») es una app para iPhone y iPad pensada para personas con TDAH y para cualquiera a quien le cueste empezar. Le cuentas a Tiny, el personaje amable de la app, lo que pasa; Tinydo lo divide en pasos pequeños, te acompaña en cada uno con un temporizador visual y vuelve a preguntarte con cariño si no sale. También tiene rutinas, recordatorios de medicación, sonidos para concentrarte y planes de estudio. La desarrolla Gokche Tech, un desarrollador independiente de Turquía."}},{"@type":"Question","name":"¿Puede Tinydo dividir tareas abrumadoras si tengo TDAH?","acceptedAnswer":{"@type":"Answer","text":"Sí, es lo principal. Escribe o di la tarea con tus palabras, por ejemplo «limpiar la cocina» o «empezar la tesis». Si lo permites, Tiny usa IA (Claude by Anthropic) para convertirla en pasos pequeños de pocos minutos, empezando por el más fácil, y solo te muestra el primero. Las metas grandes se convierten en un plan de sesiones cortas en los días que elijas. Si un paso aún te parece grande, «Me he atascado, hazlo más pequeño» lo divide en micropasos de 1 a 3 minutos. Sin IA, Tinydo usa pasos sencillos integrados."}},{"@type":"Question","name":"¿Tiene Tinydo un temporizador visual para la ceguera temporal?","acceptedAnswer":{"@type":"Answer","text":"Sí. Cada paso corre en un temporizador visual en el que el tiempo que queda es una porción que se encoge, así ves pasar el tiempo de un vistazo. También aparece en la pantalla bloqueada y en la Dynamic Island como actividad en vivo. Tras unos cuantos pasos terminados, Tinydo compara cuánto te llevan las cosas de verdad con lo que calculabas y te muestra tiempos más realistas."}},{"@type":"Question","name":"¿Puede Tinydo recordarme tomar mi medicación para el TDAH?","acceptedAnswer":{"@type":"Answer","text":"Sí. Añade un recordatorio a la hora en que tomas tu medicación; puedes configurarlo la primera vez que abres la app. Toca «Me lo he tomado» en la notificación o díselo a Siri. Si no marcas una toma, Tiny vuelve a preguntar a los 20 minutos y a la hora, y después para. El nombre del medicamento no aparece en la pantalla bloqueada salvo que tú lo elijas, y puedes ver las tomas de los últimos 7 días. Tinydo te recuerda las horas que tú eliges; no da consejos médicos ni de dosis."}},{"@type":"Question","name":"¿Tinydo es una app de body doubling?","acceptedAnswer":{"@type":"Answer","text":"Ofrece un body doubling a solas. Mientras corre tu temporizador, Tiny hace a tu lado una actividad tranquila, como leer o tejer, también visible en la pantalla bloqueada. Puedes ver cuántas otras personas usan Tinydo para concentrarse en ese momento, de forma anónima, y Tiny te escribe una vez a mitad de camino si sales de la app. No hay videollamadas, chats ni sesiones con personas reales."}},{"@type":"Question","name":"¿Qué pasa si me salto un día o lo dejo a medias?","acceptedAnswer":{"@type":"Answer","text":"Nada se pone en rojo. Tiny pregunta qué se cruzó y te propone una solución, como un paso mucho más pequeño, solo dos minutos o mañana con un recordatorio. Si el mismo motivo se repite, Tiny cambia el plan. Después de unos días fuera, la app se abre con un solo paso de 2 minutos en lugar de tareas acumuladas. También puedes tomarte un descanso de 1 a 3 días: nada cuenta como perdido y tu racha te espera."}},{"@type":"Question","name":"¿Tinydo es gratis? ¿Cuánto cuesta Tinydo Pro?","acceptedAnswer":{"@type":"Answer","text":"Tinydo se descarga gratis. El plan gratuito incluye Cuéntaselo a Tiny con IA 3 veces al día, un plan, tus rutinas de inicio, temporizadores, recordatorios, sonidos para concentrarte e historial. Tinydo Pro añade hasta 40 usos de IA al día, planes y rutinas ilimitados y tus patrones de concentración. Pro es una suscripción semanal, mensual o anual con 3 días de prueba gratis para nuevos suscriptores. El precio en tu moneda aparece en la app antes de suscribirte."}},{"@type":"Question","name":"¿Tinydo pide cuenta, muestra anuncios o me rastrea?","acceptedAnswer":{"@type":"Answer","text":"Sin cuenta, sin anuncios y sin rastreo. Tus tareas e historial se quedan en tu dispositivo y en tu iCloud privado. Tinydo envía eventos de uso anónimos e informes de fallos, sin texto de tareas ni nombres, para mejorar la app, y puedes desactivarlos en Ajustes. Los pagos pasan por Apple, así que el desarrollador nunca ve tus datos de pago."}},{"@type":"Question","name":"¿Qué ve la IA de Tinydo y puedo usar la app sin IA?","acceptedAnswer":{"@type":"Answer","text":"La primera vez que Tiny vaya a usar IA, la app te lo pregunta y te muestra qué se enviaría. Si aceptas, lo que le cuentas a Tiny, resúmenes cortos de lo que le contaste antes, las dificultades y el momento más difícil del día que elegiste al empezar, tu idioma y la fecha de hoy van al servidor de Tinydo y a Claude by Anthropic para escribir la respuesta. Tinydo no lo guarda, Anthropic no entrena con ello y nunca se vende. Si dices que no, Tinydo usa pasos integrados y no envía nada a la IA. Puedes cambiarlo cuando quieras en Ajustes → Privacidad."}},{"@type":"Question","name":"¿Tinydo es una app médica? ¿Necesito un diagnóstico de TDAH?","acceptedAnswer":{"@type":"Answer","text":"No a las dos cosas. Tinydo te acompaña a planificarte y concentrarte; no es un producto sanitario. No diagnostica, trata ni cura el TDAH ni ninguna otra condición, no es un servicio de crisis y no sustituye la atención profesional. No necesitas diagnóstico para usarla, y la app nunca te pregunta si lo tienes. Si crees que podrías hacerte daño o estás en peligro, llama al número de emergencias de tu país o busca una línea de ayuda en findahelpline.com."}},{"@type":"Question","name":"¿Qué dispositivos e idiomas admite Tinydo?","acceptedAnswer":{"@type":"Answer","text":"iPhone y iPad con iOS o iPadOS 18 o posterior; tus datos se sincronizan entre ellos con tu iCloud privado. No hay versión para Android, Windows ni web. La app está disponible en 30 idiomas, entre ellos español de España y de Latinoamérica, inglés, portugués, francés, alemán, italiano, neerlandés, turco, japonés, coreano y chino."}},{"@type":"Question","name":"¿Cómo cancelo Tinydo Pro o la prueba gratis?","acceptedAnswer":{"@type":"Answer","text":"Abre la app Ajustes (Configuración en algunos países) de tu iPhone o iPad, toca tu nombre, luego Suscripciones y luego Tinydo. También puedes tocar «Gestionar suscripción» en los ajustes de Tinydo. Cancela al menos 24 horas antes de que termine la prueba o el periodo actual para evitar el siguiente cargo. Con las notificaciones activadas, Tiny te avisa antes de que termine tu prueba gratis. Los reembolsos los gestiona Apple en reportaproblem.apple.com."}}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="top">
+<a class="brand" href="./"><img src="../favicon.png" width="32" height="32" alt="">Tinydo</a>
+<nav class="links" aria-label="Secciones"><a href="./#features">Funciones</a><a href="./#pricing">Precios</a><a href="./#faq">Preguntas</a><a href="../support/">Soporte</a></nav>
+<details class="lang"><summary aria-label="Idioma: Español"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg><span>ES</span></summary>
+<ul><li><a href="../" hreflang="en" lang="en">English</a></li><li><a href="../es/" hreflang="es" lang="es" aria-current="page">Español</a></li><li><a href="../pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="../it/" hreflang="it" lang="it">Italiano</a></li><li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li><li><a href="../ko/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
+<a class="btn small" href="https://apps.apple.com/app/id6824203447">Descargar la app</a>
+</header>
+<main id="main">
+<div class="wrap">
+<section class="hero" aria-labelledby="top-h">
+<div>
+<p class="eyebrow">Atascarse no es pereza.</p>
+<h1 id="top-h">Tinydo: agenda para el TDAH y app de concentración para iPhone y iPad</h1>
+<p class="lede">Cuéntale a Tiny lo que no consigues empezar. Tinydo lo divide en pasos pequeñitos, te acompaña en cada uno con un temporizador visual y, si no sale, vuelve a preguntarte con cariño.</p>
+<p class="sub">Para adultos y estudiantes con TDAH, con o sin diagnóstico, y para cualquiera que se atasque o lo deje todo para luego.</p>
+<a class="btn" href="https://apps.apple.com/app/id6824203447"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Descargar en el App Store</a>
+<p class="note">Gratis · iPhone y iPad · iOS 18 o posterior</p>
+<ul class="pills" aria-label="Privacidad"><li>Sin cuenta</li><li>Sin anuncios</li><li>Sin rastreo</li><li>IA solo si tú quieres</li></ul>
+</div>
+<figure class="shot"><img src="../img/es/tell-tiny.jpg" width="480" height="1043" alt="Pantalla Cuéntaselo a Tiny: Tiny reduce algo grande a un primer paso y ofrece un ritmo suave, constante o intenso." fetchpriority="high"></figure>
+</section>
+<section id="at-a-glance" aria-labelledby="facts-h">
+<h2 id="facts-h">Tinydo en pocas palabras</h2>
+<dl class="facts"><div><dt>Qué es</dt><dd>Una agenda y app de concentración pensada para el TDAH: divide tareas con IA, temporizador visual, rutinas, recordatorios de medicación, sonidos para concentrarte y seguimientos amables.</dd></div><div><dt>Para quién</dt><dd>Personas con TDAH (no hace falta diagnóstico), estudiantes, madres y padres, y cualquiera que procrastine o no consiga empezar.</dd></div><div><dt>Dispositivos</dt><dd>iPhone y iPad con iOS o iPadOS 18 o posterior. Se sincroniza con tu iCloud privado. No hay versión para Android.</dd></div><div><dt>Precio</dt><dd>Descarga gratuita. Suscripción opcional Tinydo Pro (semanal, mensual o anual) con 3 días de prueba gratis para nuevos suscriptores.</dd></div><div><dt>Privacidad</dt><dd>Sin cuenta, sin anuncios, sin rastreo. La IA solo se usa si lo permites.</dd></div><div><dt>Idiomas</dt><dd>30, entre ellos español de España y de Latinoamérica, inglés, portugués, francés, alemán, italiano, japonés y coreano.</dd></div><div><dt>Desarrollador</dt><dd>Gokche Tech, un desarrollador independiente de Turquía.</dd></div></dl>
+</section>
+<section id="features" aria-labelledby="features-h">
+<h2 id="features-h">Qué hace Tinydo</h2>
+<p class="intro">Tinydo nace de una idea: no necesitas una lista más larga, sino el siguiente paso pequeño y alguien que te pregunte cómo va. Esto es todo lo que hace.</p>
+<article class="feature" id="tell-tiny"><div><h3>Cuéntaselo a Tiny: la IA divide lo que no consigues empezar</h3><p>Escribe o di lo que te pasa, como a un amigo: «la cocina es un desastre», «tengo un examen en junio y no abro los libros», «quiero empezar a correr». Tiny te refleja lo que entiende y reduce la montaña al primer paso de hoy, normalmente de 2 a 10 minutos.</p><p>Para algo grande, elige un ritmo (suave, constante o intenso), los días que encajan con tu vida y una hora. Tiny organiza sesiones cortas y solo te muestra la siguiente. Si la IA está desactivada o no tienes conexión, Tinydo te da igualmente pasos sencillos integrados.</p></div></article>
+<article class="feature has-shot" id="visual-timer"><div><h3>Un paso, un temporizador visual, pensado para la ceguera temporal</h3><p>La pantalla Ahora muestra una sola cosa, no una lista. Cada paso corre en un temporizador visual: el tiempo que queda es una porción de color que se encoge hacia las 12, así ves pasar el tiempo en lugar de leer números.</p><p>El temporizador también aparece en la pantalla bloqueada y en la Dynamic Island como actividad en vivo. ¿Te atascas a mitad? Toca «Me he atascado, hazlo más pequeño» para dividirlo en micropasos de 1 a 3 minutos, o suma 5 minutos. Tinydo también aprende cuánto te llevan las cosas de verdad comparado con lo que calculas, y te muestra tiempos realistas.</p></div><figure class="shot"><img src="../img/es/visual-timer.jpg" width="480" height="1043" alt="Pantalla de concentración con un temporizador visual en 2:54 para el paso «Tirar la basura de la encimera»." loading="lazy" decoding="async"></figure></article>
+<article class="feature" id="routines"><div><h3>Rutinas y un día planificado con calma</h3><p>Crea rutinas de mañana, de noche y del día a día con recordatorios en los días y horas que te vienen bien, o ponte un objetivo semanal como «3 días cualquiera a la semana». En iOS 26, las rutinas pueden sonar como una alarma.</p><p>La pestaña Plan reúne rutinas, tareas, sesiones de tus planes y, si lo permites, tu calendario en una sola línea de tiempo. Planifica para hoy, mañana, algún día o a una hora fija, y añade cualquier tarea o plan de estudio a tu calendario.</p></div></article>
+<article class="feature has-shot flip" id="medication-reminders"><div><h3>Recordatorios de medicación que vuelven a preguntar</h3><p>Pon un recordatorio a la hora en que tomas tu medicación. Toca «Me lo he tomado» en la propia notificación o díselo a Siri. Cada toma se guarda con la hora, y la tarjeta de medicación muestra los últimos 7 días de un vistazo.</p><p>Si no marcas una toma, Tiny vuelve a preguntar con cariño a los 20 minutos y una última vez a la hora, y después para. Por defecto, el nombre del medicamento no aparece en la pantalla bloqueada. Los recordatorios de medicación siguen incluso cuando te tomas un descanso de todo lo demás. Tinydo solo te recuerda las horas que tú eliges; no da consejos médicos ni de dosis.</p></div><figure class="shot"><img src="../img/es/medication-reminder.jpg" width="480" height="1043" alt="Pantalla Días con una tarjeta de medicación: botón «Me lo he tomado» y siete días de tomas con la hora de cada una." loading="lazy" decoding="async"></figure></article>
+<article class="feature" id="focus-sounds"><div><h3>Sonidos para concentrarte y recordatorios que reconoces de oído</h3><p>Pon ruido marrón, ruido rosa, lluvia, olas o chimenea mientras trabajas. Cada recordatorio tiene su sonido creado para Tinydo: un bote de pastillas para la medicación, gotas para el agua, un timbre de colegio para estudiar, un timbre de puerta para casa. Sabes qué es antes de mirar.</p></div></article>
+<article class="feature" id="body-doubling"><div><h3>Body doubling, sin videollamada</h3><p>Mientras corre un paso, Tiny hace a tu lado su propia cosita, a la vista: lee, teje una bufanda diminuta, riega una planta. También se ve en la pantalla bloqueada. Además ves cuántas otras personas usan Tinydo para concentrarse en ese momento, de forma anónima, sin nombres, chat ni cámara. Puedes desactivar ese contador en Ajustes.</p><p>Si sales de la app a mitad de un paso, Tiny te escribe una sola vez a mitad de camino para decirte que lo estás logrando y que sigue ahí cuando termines.</p></div></article>
+<article class="feature has-shot" id="follow-ups"><div><h3>Seguimiento amable cuando no sale</h3><p>¿Lo paraste, lo saltaste o lo pasaste a mañana? Tiny pregunta qué se cruzó: demasiado grande, sin tiempo, cansancio, ansiedad, distracción, olvido. Cada respuesta tiene una solución real: mucho más pequeño, solo dos minutos, mañana con recordatorio o un sonido para concentrarte. Si lo mismo se repite, Tiny cambia el plan en lugar de insistir.</p><p>¿Pasaste unos días fuera? Tinydo te recibe con una bienvenida cálida y un solo paso de 2 minutos, no con un montón de tareas atrasadas. ¿Necesitas un descanso? Pausa de 1 a 3 días: nada cuenta como perdido, tu racha te espera y solo siguen los recordatorios de medicación. Las notas de Tiny llegan como mucho una vez al día y nunca entre las 21:30 y las 08:00.</p></div><figure class="shot"><img src="../img/es/change-the-plan.jpg" width="480" height="1043" alt="Pantalla tras un paso interrumpido: Tiny nota el mismo obstáculo que la última vez y propone cambiar el plan." loading="lazy" decoding="async"></figure></article>
+<article class="feature" id="study"><div><h3>Planes de estudio y cuenta atrás para el examen</h3><p>Añade la fecha del examen y Tiny planifica sesiones ligeras y regulares con cuenta atrás. Después de cada sesión, cierra el libro y apunta lo que recuerdas; la siguiente sesión empieza recordándolo. Recordar es lo que lo fija.</p></div></article>
+<article class="feature" id="insights"><div><h3>Tiny te va conociendo, en tu dispositivo</h3><p>Tinydo detecta las horas en que de verdad terminas las cosas, lo que sueles aplazar y qué ayuda te funciona, y te sugiere un momento mejor para lo difícil. «Lo que Tiny sabe de ti» lo muestra todo con palabras sencillas, y con un toque Tiny lo olvida. Este aprendizaje ocurre en tu dispositivo y nunca se envía ni a nosotros ni a la IA.</p><p>La pestaña Días muestra lo que hiciste cada día, tus mejores rachas y un gráfico tranquilo de 8 semanas. Números que solo crecen: sin marcas rojas, sin culpa. Con Pro, tus patrones de concentración muestran tu mejor hora, tu mejor día y la evolución semana a semana.</p></div></article>
+<article class="feature" id="widgets"><div><h3>Widgets, actividades en vivo, Siri y Atajos</h3><ul><li>Widget para la pantalla de inicio y la pantalla bloqueada: tu próxima rutina, los logros de hoy y Cuéntaselo a Tiny con un toque</li><li>Actividad en vivo en la pantalla bloqueada y en la Dynamic Island mientras corre un paso</li><li>Controles del centro de control para empezar lo siguiente o contarle algo a Tiny</li><li>Siri y Atajos: empezar lo siguiente, contarle algo a Tiny o marcar tu medicación como tomada</li><li>Sincronización con iCloud entre iPhone y iPad</li><li>Seis temas de color tranquilos, modo oscuro, Dynamic Type, VoiceOver y Reducir movimiento</li></ul></div></article>
+<article class="feature" id="privacy"><div><h3>Privada por diseño</h3><p>Sin cuenta. Sin anuncios. Sin rastreo. Tus tareas, tu historial y lo que Tiny aprende de ti se quedan en tu dispositivo y en tu iCloud privado, que nosotros no podemos leer.</p><p>La IA de Tiny solo funciona si lo permites. Entonces lo que le cuentas va a nuestro servidor y a Claude by Anthropic para responderte. No lo guardamos, y nunca se vende ni se usa para anuncios. Si dices que no, Tinydo usa pasos integrados y no envía nada a la IA. Estadísticas de uso anónimas e informes de fallos, sin texto de tareas ni nombres, nos ayudan a mejorar la app; puedes desactivarlos en Ajustes. <a href="../privacy/">Leer la política de privacidad (en inglés)</a>.</p></div></article>
+</section>
+</div>
+<div class="band">
+<div class="wrap">
+<section id="who" aria-labelledby="who-h">
+<h2 id="who-h">Para quién es Tinydo</h2>
+<div class="cols">
+<div class="card"><h3>Tinydo es para ti si…</h3><ul class="check"><li>tienes TDAH, con o sin diagnóstico, y sabes qué hacer pero no consigues empezar</li><li>estudias y tienes exámenes, trabajos o una tesis por delante</li><li>haces malabares con medicación, comidas, casa y trabajo, y se te escapan cosas</li><li>vas con retraso en el trabajo y no paras de evitar lo difícil</li><li>pierdes la noción del tiempo y nunca sabes cuánto te llevará algo</li><li>te cansan las listas de tareas que solo crecen</li></ul></div>
+<div class="card"><h3>Probablemente no es para ti si…</h3><ul class="check dash"><li>buscas diagnóstico, tratamiento o un servicio de crisis. Tinydo no es nada de eso.</li><li>usas Android. Tinydo solo está en iPhone y iPad.</li><li>quieres listas compartidas o proyectos en equipo. Tinydo es personal.</li><li>quieres una agenda detallada con cada hora del día planificada.</li></ul></div>
+</div>
+</section>
+<section id="different" aria-labelledby="diff-h">
+<h2 id="diff-h">Qué hace diferente a Tinydo</h2>
+<ul class="diff"><li><strong>Empieza por lo que te atasca, no por un calendario.</strong>Le cuentas a Tiny lo que te pesa y recibes un primer paso. Las listas quedan en segundo plano.</li><li><strong>Te acompaña durante el paso.</strong>Un temporizador visual, Tiny trabajando a tu lado y un mensaje a mitad de camino.</li><li><strong>Vuelve a preguntar y cambia el plan.</strong>Lo que no salió se convierte en un paso más pequeño o en un momento mejor, no en una lista roja de tareas atrasadas.</li><li><strong>Aprende tus patrones en tu dispositivo.</strong>Puedes ver todo lo que ha aprendido, con palabras sencillas, y borrarlo.</li><li><strong>Es comprensiva con los descansos.</strong>Los días de descanso no rompen tu racha y volver empieza con dos minutos.</li><li><strong>Respeta tu privacidad.</strong>Sin cuenta, sin anuncios, sin rastreo y con IA solo si lo permites.</li></ul>
+</section>
+</div>
+</div>
+<div class="wrap">
+<section id="pricing" aria-labelledby="pricing-h">
+<h2 id="pricing-h">Precios</h2>
+<p class="intro">Tinydo se descarga gratis y es útil sin pagar. Tinydo Pro es una suscripción opcional para quien se apoya en Tiny cada día.</p>
+<div class="cols">
+<div class="card plan"><h3>Gratis</h3><p class="price">Sin límite de tiempo</p><ul class="check"><li>Cuéntaselo a Tiny con IA 3 veces al día</li><li>1 plan (una meta con sesiones repartidas en varias semanas)</li><li>Tus rutinas de inicio, incluido un recordatorio de medicación si lo añades al configurar la app</li><li>Las tareas que añades tú, temporizadores visuales, recordatorios y sonidos para concentrarte</li><li>Tus días, el gráfico de progreso y «Lo que Tiny sabe de ti»</li></ul></div>
+<div class="card plan pro"><h3>Tinydo Pro</h3><p class="price">Suscripción semanal, mensual o anual</p><ul class="check"><li>Hasta 40 sesiones para pensar con Tiny al día</li><li>Planes y rutinas ilimitados</li><li>Tus patrones de concentración: mejor hora, mejor día y evolución semana a semana</li><li>3 días de prueba gratis para nuevos suscriptores en todos los planes</li><li>Tiny te avisa antes de que termine la prueba (con las notificaciones activadas)</li></ul></div>
+</div>
+<p class="fine">Los precios los fija el App Store en tu moneda y se muestran en la app antes de suscribirte.</p>
+<p class="fine">El pago se carga a tu cuenta de Apple. La suscripción se renueva automáticamente salvo que la canceles al menos 24 horas antes de que termine el periodo actual. Cancela cuando quieras en Ajustes (Configuración) &gt; tu nombre &gt; Suscripciones.</p>
+</section>
+<section id="faq" aria-labelledby="faq-h">
+<h2 id="faq-h">Preguntas frecuentes</h2>
+<div class="qa"><h3 id="faq-1">¿Qué es Tinydo?</h3><p>Tinydo (en el App Store, «Tinydo: Agenda TDAH y Rutinas») es una app para iPhone y iPad pensada para personas con TDAH y para cualquiera a quien le cueste empezar. Le cuentas a Tiny, el personaje amable de la app, lo que pasa; Tinydo lo divide en pasos pequeños, te acompaña en cada uno con un temporizador visual y vuelve a preguntarte con cariño si no sale. También tiene rutinas, recordatorios de medicación, sonidos para concentrarte y planes de estudio. La desarrolla Gokche Tech, un desarrollador independiente de Turquía.</p></div><div class="qa"><h3 id="faq-2">¿Puede Tinydo dividir tareas abrumadoras si tengo TDAH?</h3><p>Sí, es lo principal. Escribe o di la tarea con tus palabras, por ejemplo «limpiar la cocina» o «empezar la tesis». Si lo permites, Tiny usa IA (Claude by Anthropic) para convertirla en pasos pequeños de pocos minutos, empezando por el más fácil, y solo te muestra el primero. Las metas grandes se convierten en un plan de sesiones cortas en los días que elijas. Si un paso aún te parece grande, «Me he atascado, hazlo más pequeño» lo divide en micropasos de 1 a 3 minutos. Sin IA, Tinydo usa pasos sencillos integrados.</p></div><div class="qa"><h3 id="faq-3">¿Tiene Tinydo un temporizador visual para la ceguera temporal?</h3><p>Sí. Cada paso corre en un temporizador visual en el que el tiempo que queda es una porción que se encoge, así ves pasar el tiempo de un vistazo. También aparece en la pantalla bloqueada y en la Dynamic Island como actividad en vivo. Tras unos cuantos pasos terminados, Tinydo compara cuánto te llevan las cosas de verdad con lo que calculabas y te muestra tiempos más realistas.</p></div><div class="qa"><h3 id="faq-4">¿Puede Tinydo recordarme tomar mi medicación para el TDAH?</h3><p>Sí. Añade un recordatorio a la hora en que tomas tu medicación; puedes configurarlo la primera vez que abres la app. Toca «Me lo he tomado» en la notificación o díselo a Siri. Si no marcas una toma, Tiny vuelve a preguntar a los 20 minutos y a la hora, y después para. El nombre del medicamento no aparece en la pantalla bloqueada salvo que tú lo elijas, y puedes ver las tomas de los últimos 7 días. Tinydo te recuerda las horas que tú eliges; no da consejos médicos ni de dosis.</p></div><div class="qa"><h3 id="faq-5">¿Tinydo es una app de body doubling?</h3><p>Ofrece un body doubling a solas. Mientras corre tu temporizador, Tiny hace a tu lado una actividad tranquila, como leer o tejer, también visible en la pantalla bloqueada. Puedes ver cuántas otras personas usan Tinydo para concentrarse en ese momento, de forma anónima, y Tiny te escribe una vez a mitad de camino si sales de la app. No hay videollamadas, chats ni sesiones con personas reales.</p></div><div class="qa"><h3 id="faq-6">¿Qué pasa si me salto un día o lo dejo a medias?</h3><p>Nada se pone en rojo. Tiny pregunta qué se cruzó y te propone una solución, como un paso mucho más pequeño, solo dos minutos o mañana con un recordatorio. Si el mismo motivo se repite, Tiny cambia el plan. Después de unos días fuera, la app se abre con un solo paso de 2 minutos en lugar de tareas acumuladas. También puedes tomarte un descanso de 1 a 3 días: nada cuenta como perdido y tu racha te espera.</p></div><div class="qa"><h3 id="faq-7">¿Tinydo es gratis? ¿Cuánto cuesta Tinydo Pro?</h3><p>Tinydo se descarga gratis. El plan gratuito incluye Cuéntaselo a Tiny con IA 3 veces al día, un plan, tus rutinas de inicio, temporizadores, recordatorios, sonidos para concentrarte e historial. Tinydo Pro añade hasta 40 usos de IA al día, planes y rutinas ilimitados y tus patrones de concentración. Pro es una suscripción semanal, mensual o anual con 3 días de prueba gratis para nuevos suscriptores. El precio en tu moneda aparece en la app antes de suscribirte.</p></div><div class="qa"><h3 id="faq-8">¿Tinydo pide cuenta, muestra anuncios o me rastrea?</h3><p>Sin cuenta, sin anuncios y sin rastreo. Tus tareas e historial se quedan en tu dispositivo y en tu iCloud privado. Tinydo envía eventos de uso anónimos e informes de fallos, sin texto de tareas ni nombres, para mejorar la app, y puedes desactivarlos en Ajustes. Los pagos pasan por Apple, así que el desarrollador nunca ve tus datos de pago.</p></div><div class="qa"><h3 id="faq-9">¿Qué ve la IA de Tinydo y puedo usar la app sin IA?</h3><p>La primera vez que Tiny vaya a usar IA, la app te lo pregunta y te muestra qué se enviaría. Si aceptas, lo que le cuentas a Tiny, resúmenes cortos de lo que le contaste antes, las dificultades y el momento más difícil del día que elegiste al empezar, tu idioma y la fecha de hoy van al servidor de Tinydo y a Claude by Anthropic para escribir la respuesta. Tinydo no lo guarda, Anthropic no entrena con ello y nunca se vende. Si dices que no, Tinydo usa pasos integrados y no envía nada a la IA. Puedes cambiarlo cuando quieras en Ajustes → Privacidad.</p></div><div class="qa"><h3 id="faq-10">¿Tinydo es una app médica? ¿Necesito un diagnóstico de TDAH?</h3><p>No a las dos cosas. Tinydo te acompaña a planificarte y concentrarte; no es un producto sanitario. No diagnostica, trata ni cura el TDAH ni ninguna otra condición, no es un servicio de crisis y no sustituye la atención profesional. No necesitas diagnóstico para usarla, y la app nunca te pregunta si lo tienes. Si crees que podrías hacerte daño o estás en peligro, llama al número de emergencias de tu país o busca una línea de ayuda en findahelpline.com.</p></div><div class="qa"><h3 id="faq-11">¿Qué dispositivos e idiomas admite Tinydo?</h3><p>iPhone y iPad con iOS o iPadOS 18 o posterior; tus datos se sincronizan entre ellos con tu iCloud privado. No hay versión para Android, Windows ni web. La app está disponible en 30 idiomas, entre ellos español de España y de Latinoamérica, inglés, portugués, francés, alemán, italiano, neerlandés, turco, japonés, coreano y chino.</p></div><div class="qa"><h3 id="faq-12">¿Cómo cancelo Tinydo Pro o la prueba gratis?</h3><p>Abre la app Ajustes (Configuración en algunos países) de tu iPhone o iPad, toca tu nombre, luego Suscripciones y luego Tinydo. También puedes tocar «Gestionar suscripción» en los ajustes de Tinydo. Cancela al menos 24 horas antes de que termine la prueba o el periodo actual para evitar el siguiente cargo. Con las notificaciones activadas, Tiny te avisa antes de que termine tu prueba gratis. Los reembolsos los gestiona Apple en reportaproblem.apple.com.</p></div>
+</section>
+<section class="final" aria-labelledby="final-h">
+<h2 id="final-h">Empieza con un paso pequeñito</h2>
+<p>Tinydo es gratis en el App Store para iPhone y iPad. Sin cuenta, sin anuncios, sin rastreo.</p>
+<a class="btn" href="https://apps.apple.com/app/id6824203447"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Descargar en el App Store</a>
+</section>
+</div>
+</main>
+<footer>
+<div class="wrap">
+<ul class="flinks">
+<li><a href="../support/">Soporte (en inglés)</a></li>
+<li><a href="../privacy/">Política de privacidad (en inglés)</a></li>
+<li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Condiciones de uso</a></li>
+<li><a href="../llms-full.txt" hreflang="en">Ficha en texto plano (en inglés)</a></li>
+<li><a href="mailto:support@gokchetech.com">support@gokchetech.com</a></li>
+</ul>
+<p>Tinydo lo desarrolla Gokche Tech, un desarrollador independiente de Turquía. Preguntas o ideas: <a href="mailto:support@gokchetech.com">support@gokchetech.com</a>.</p>
+<p>Tinydo te acompaña a planificarte y concentrarte. No es consejo médico, tratamiento ni un servicio de crisis. Si estás en peligro, llama al número de emergencias de tu país o visita <a href="https://findahelpline.com">findahelpline.com</a>.</p>
+<nav aria-label="Idioma"><ul class="flangs"><li><a href="../" hreflang="en" lang="en">English</a></li><li><a href="../es/" hreflang="es" lang="es">Español</a></li><li><a href="../pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="../it/" hreflang="it" lang="it">Italiano</a></li><li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li><li><a href="../ko/" hreflang="ko" lang="ko">한국어</a></li></ul></nav>
+<p>Apple, iPhone, iPad, Siri y App Store son marcas comerciales de Apple Inc., registradas en EE. UU. y en otros países.</p>
+</div>
+</footer>
+</body>
+</html>

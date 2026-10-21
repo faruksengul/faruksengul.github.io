@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tinydo：ADHDのタスク管理・ビジュアルタイマー・薬リマインダー</title>
+<meta name="description" content="TinydoはiPhone・iPad向けの、ADHDにやさしいタスク管理アプリ。AIがやることを小さなステップに分け、ビジュアルタイマーで一歩ずつ。できなかった日もやさしくフォローします。">
+<link rel="canonical" href="https://faruksengul.github.io/unstuck/ja/">
+<link rel="alternate" hreflang="en" href="https://faruksengul.github.io/unstuck/">
+<link rel="alternate" hreflang="es" href="https://faruksengul.github.io/unstuck/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://faruksengul.github.io/unstuck/pt-br/">
+<link rel="alternate" hreflang="fr" href="https://faruksengul.github.io/unstuck/fr/">
+<link rel="alternate" hreflang="de" href="https://faruksengul.github.io/unstuck/de/">
+<link rel="alternate" hreflang="it" href="https://faruksengul.github.io/unstuck/it/">
+<link rel="alternate" hreflang="nl" href="https://faruksengul.github.io/unstuck/nl/">
+<link rel="alternate" hreflang="tr" href="https://faruksengul.github.io/unstuck/tr/">
+<link rel="alternate" hreflang="ja" href="https://faruksengul.github.io/unstuck/ja/">
+<link rel="alternate" hreflang="ko" href="https://faruksengul.github.io/unstuck/ko/">
+<link rel="alternate" hreflang="x-default" href="https://faruksengul.github.io/unstuck/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Gokche Tech">
+<meta name="apple-itunes-app" content="app-id=6824203447">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2FAF9">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F1716">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" sizes="96x96" href="../favicon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tinydo">
+<meta property="og:title" content="Tinydo：ADHDのタスク管理・ビジュアルタイマー・薬リマインダー">
+<meta property="og:description" content="TinydoはiPhone・iPad向けの、ADHDにやさしいタスク管理アプリ。AIがやることを小さなステップに分け、ビジュアルタイマーで一歩ずつ。できなかった日もやさしくフォローします。">
+<meta property="og:url" content="https://faruksengul.github.io/unstuck/ja/">
+<meta property="og:image" content="https://faruksengul.github.io/unstuck/ja/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tinydoのアプリアイコンと、iPhoneの2画面（Tinyに話す、ビジュアルタイマー）">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tinydo：ADHDのタスク管理・ビジュアルタイマー・薬リマインダー">
+<meta name="twitter:description" content="TinydoはiPhone・iPad向けの、ADHDにやさしいタスク管理アプリ。AIがやることを小さなステップに分け、ビジュアルタイマーで一歩ずつ。できなかった日もやさしくフォローします。">
+<meta name="twitter:image" content="https://faruksengul.github.io/unstuck/ja/og.png">
+<meta name="twitter:image:alt" content="Tinydoのアプリアイコンと、iPhoneの2画面（Tinyに話す、ビジュアルタイマー）">
+<style>:root{--bg:#F2FAF9;--surface:#FFFFFF;--elev:#E3F2F0;--ink:#14302D;--quiet:#4A625F;--accent:#3CC4B8;--accent-soft:#D9F3EF;--accent-ink:#0B6E66;--on-accent:#0F2422;--focus-ink:#3F4FBF;--line:rgba(20,48,45,.13);--deep:#04706B;--on-deep:#FFFFFF;--shadow:rgba(4,60,56,.16);color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#0F1716;--surface:#172120;--elev:#1F2C2A;--ink:#E6F3F1;--quiet:#9DB5B1;--accent:#5AD6CA;--accent-soft:#18332F;--accent-ink:#6FDDD2;--on-accent:#0B1A18;--focus-ink:#AAB5FF;--line:rgba(230,243,241,.13);--deep:#123F3B;--on-deep:#E6F3F1;--shadow:rgba(0,0,0,.4)}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+:lang(ja) body,body:lang(ja){font-family:-apple-system,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Meiryo",system-ui,sans-serif;line-height:1.75;line-break:strict}
+:lang(ko) body,body:lang(ko){font-family:-apple-system,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;line-height:1.75;word-break:keep-all}
+img{max-width:100%;height:auto}
+a{color:var(--accent-ink);text-underline-offset:.15em}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--focus-ink);outline-offset:2px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;z-index:9;background:var(--surface);color:var(--ink);padding:10px 14px;border-radius:10px}
+.skip:focus{left:8px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.top{display:flex;align-items:center;gap:8px;max-width:1080px;margin:0 auto;padding:12px 20px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:700;font-size:19px;min-height:44px}
+.brand img{width:32px;height:32px}
+.links{display:none;gap:22px;margin-left:auto}
+.links a{color:var(--quiet);text-decoration:none;font-size:15px}
+.links a:hover{color:var(--ink)}
+.lang{position:relative;margin-left:auto}
+.lang summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;min-height:44px;padding:0 10px;border-radius:12px;color:var(--quiet);font-size:15px}
+.lang summary::-webkit-details-marker{display:none}
+.lang summary:hover{background:var(--accent-soft)}
+.lang svg{width:18px;height:18px}
+.lang ul{position:absolute;right:0;top:100%;z-index:5;min-width:210px;margin:6px 0 0;padding:6px;list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 32px var(--shadow)}
+.lang li a{display:block;padding:9px 12px;border-radius:10px;color:var(--ink);text-decoration:none}
+.lang li a:hover{background:var(--accent-soft)}
+.lang li a[aria-current]{color:var(--accent-ink);font-weight:700}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:14px 26px;border-radius:16px;background:var(--accent);color:var(--on-accent);font-weight:700;font-size:17px;text-decoration:none;box-shadow:0 8px 22px var(--shadow)}
+.btn:hover{filter:brightness(1.05)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn.small{min-height:44px;padding:8px 16px;font-size:15px;border-radius:12px;box-shadow:none}
+.top .btn.small{display:none}
+@media (min-width:760px){.links{display:flex}.lang{margin-left:6px}.top .btn.small{display:inline-flex}}
+h1,h2{font-family:"New York",ui-serif,Georgia,"Times New Roman",serif;font-weight:700;line-height:1.15;letter-spacing:-.01em}
+:lang(ja) h1,:lang(ja) h2,:lang(ko) h1,:lang(ko) h2{font-family:inherit;letter-spacing:0}
+h1,h2,h3{text-wrap:balance}
+p,li,dd{text-wrap:pretty}
+:lang(ja) h1,:lang(ja) h2,:lang(ja) h3{word-break:auto-phrase;overflow-wrap:anywhere}
+h1{font-size:clamp(2rem,7vw,3.2rem);margin:0 0 18px}
+h2{font-size:clamp(1.55rem,4.4vw,2.15rem);margin:0 0 18px}
+h3{font-size:1.18rem;line-height:1.35;margin:0 0 8px}
+.hero{display:grid;gap:36px;padding:20px 0 40px}
+.eyebrow{display:inline-block;margin:0 0 16px;padding:6px 12px;border-radius:999px;background:var(--accent-soft);color:var(--accent-ink);font-weight:600;font-size:14px}
+.lede{font-size:clamp(1.15rem,2.7vw,1.32rem);margin:0 0 12px}
+.sub{color:var(--quiet);margin:0 0 26px}
+.note{color:var(--quiet);font-size:14px;margin:12px 0 0}
+.pills{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:22px 0 0;padding:0}
+.pills li{padding:6px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:14px}
+.shot{margin:0;justify-self:center}
+.shot img{display:block;width:min(260px,72vw);border-radius:30px;box-shadow:0 22px 50px var(--shadow)}
+@media (min-width:860px){.hero{grid-template-columns:1.3fr .7fr;align-items:center;padding:40px 0 64px}}
+section{padding:36px 0}
+.band{background:var(--elev)}
+.intro{color:var(--quiet);max-width:680px;margin:-6px 0 20px}
+.facts{display:grid;gap:12px;margin:0}
+.facts div{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:16px 18px}
+.facts dt{font-weight:700;font-size:14px;color:var(--accent-ink);margin:0 0 4px}
+.facts dd{margin:0}
+@media (min-width:720px){.facts{grid-template-columns:1fr 1fr}.facts div:last-child:nth-child(odd){grid-column:1/-1}}
+.feature{display:grid;gap:24px;padding:30px 0;border-top:1px solid var(--line)}
+.feature:first-of-type{border-top:0;padding-top:6px}
+.feature p{margin:0 0 12px;max-width:660px}
+.feature ul{margin:0 0 12px;padding-left:1.2em;max-width:660px}
+.feature li{margin:4px 0}
+.feature .shot img{width:min(230px,64vw)}
+@media (min-width:860px){.feature.has-shot{grid-template-columns:1fr 280px;align-items:center;gap:48px}.feature.flip .shot{order:-1}}
+.cols{display:grid;gap:16px}
+@media (min-width:860px){.cols{grid-template-columns:1fr 1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:22px 24px}
+.card h3{font-family:"New York",ui-serif,Georgia,serif;font-size:1.4rem}
+:lang(ja) .card h3,:lang(ko) .card h3{font-family:inherit}
+.check{list-style:none;margin:0;padding:0}
+.check li{position:relative;margin:9px 0;padding-left:28px}
+.check li::before{content:"";position:absolute;left:4px;top:.5em;width:12px;height:7px;border-left:2.5px solid var(--accent-ink);border-bottom:2.5px solid var(--accent-ink);transform:rotate(-45deg)}
+.dash li::before{border-bottom:0;top:.8em;width:10px;height:0;border-left:0;border-top:2.5px solid var(--quiet);transform:none}
+.diff{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+@media (min-width:860px){.diff{grid-template-columns:1fr 1fr}}
+.diff li{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:18px 20px}
+.diff strong{display:block;margin-bottom:4px}
+.plan .price{color:var(--quiet);margin:-2px 0 10px}
+.plan.pro{border:2px solid var(--accent)}
+.fine{color:var(--quiet);font-size:14px;max-width:760px}
+.qa{padding:18px 0;border-top:1px solid var(--line)}
+.qa:first-of-type{border-top:0}
+.qa h3{font-size:1.1rem}
+.qa p{margin:0;max-width:740px}
+.final{margin:16px 0 48px;padding:40px 24px;border-radius:28px;background:var(--deep);color:var(--on-deep);text-align:center}
+.final h2{margin-bottom:10px}
+.final p{margin:0 auto 22px;max-width:560px}
+footer{border-top:1px solid var(--line);padding:28px 0 56px;color:var(--quiet);font-size:15px}
+footer p{margin:0 0 10px}
+footer a{color:var(--quiet)}
+footer a:hover{color:var(--ink)}
+.flinks,.flangs{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;margin:0 0 14px;padding:0}
+.crumbs{font-size:14px;color:var(--quiet);margin:8px 0 18px}
+.crumbs ol{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0}
+.crumbs li+li::before{content:"\203A";margin-right:6px}
+.doc{max-width:760px;margin:0 auto;padding:8px 20px 72px}
+.doc h1{font-size:clamp(1.9rem,6vw,2.6rem);margin-bottom:8px}
+.doc h2{font-size:1.35rem;margin:36px 0 8px}
+.doc .meta{color:var(--quiet);margin:0 0 28px}
+.table{width:100%;border-collapse:collapse;font-size:15px}
+.table th,.table td{text-align:left;vertical-align:top;padding:10px 8px;border-bottom:1px solid var(--line)}
+@media (max-width:700px){.table thead{display:none}.table tr{display:block;margin:0 0 12px;padding:8px 14px;background:var(--surface);border:1px solid var(--line);border-radius:16px}.table td{display:block;border:0;padding:6px 0}.table td::before{content:attr(data-label);display:block;font-size:13px;font-weight:700;color:var(--accent-ink)}}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://faruksengul.github.io/unstuck/#org","name":"Gokche Tech","url":"https://faruksengul.github.io/unstuck/","email":"support@gokchetech.com","address":{"@type":"PostalAddress","addressCountry":"TR"},"contactPoint":{"@type":"ContactPoint","contactType":"customer support","email":"support@gokchetech.com","url":"https://faruksengul.github.io/unstuck/support/"}},{"@type":"WebSite","@id":"https://faruksengul.github.io/unstuck/#website","url":"https://faruksengul.github.io/unstuck/","name":"Tinydo","publisher":{"@id":"https://faruksengul.github.io/unstuck/#org"},"inLanguage":["en","es","pt-BR","fr","de","it","nl","tr","ja","ko"]},{"@type":"WebPage","@id":"https://faruksengul.github.io/unstuck/ja/#webpage","url":"https://faruksengul.github.io/unstuck/ja/","name":"Tinydo：ADHDのタスク管理・ビジュアルタイマー・薬リマインダー","description":"TinydoはiPhone・iPad向けの、ADHDにやさしいタスク管理アプリ。AIがやることを小さなステップに分け、ビジュアルタイマーで一歩ずつ。できなかった日もやさしくフォローします。","inLanguage":"ja","isPartOf":{"@id":"https://faruksengul.github.io/unstuck/#website"},"about":{"@id":"https://faruksengul.github.io/unstuck/ja/#app"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://faruksengul.github.io/unstuck/ja/og.png","width":1200,"height":630},"dateModified":"2026-10-21"},{"@type":"MobileApplication","@id":"https://faruksengul.github.io/unstuck/ja/#app","name":"Tinydo: ADHD タスク管理・集中タイマー","alternateName":"Tinydo","description":"Tinydoは、ADHDの人にやさしいiPhone・iPad向けのタスク管理・集中アプリです。いまの状況をTinyに話すと、AIが小さなステップに分けてくれます。ビジュアルタイマー、毎日のルーティン、薬と水分補給のリマインダー、集中サウンド、やさしいフォローで、実際に手をつけられるようになります。アカウント不要、広告なし、トラッキングなし。","url":"https://faruksengul.github.io/unstuck/ja/","applicationCategory":"ProductivityApplication","operatingSystem":"iOS 18.0 or later, iPadOS 18.0 or later","availableOnDevice":"iPhone, iPad","downloadUrl":"https://apps.apple.com/jp/app/id6824203447","installUrl":"https://apps.apple.com/jp/app/id6824203447","sameAs":"https://apps.apple.com/app/id6824203447","image":"https://faruksengul.github.io/unstuck/icon-512.png","screenshot":["https://faruksengul.github.io/unstuck/img/ja/tell-tiny.jpg","https://faruksengul.github.io/unstuck/img/ja/visual-timer.jpg","https://faruksengul.github.io/unstuck/img/ja/medication-reminder.jpg","https://faruksengul.github.io/unstuck/img/ja/change-the-plan.jpg"],"featureList":["AIによるタスク分解（Tinyに話す）：圧倒されるタスクを数分ずつのステップに","選んだ曜日に、ゆったり・コツコツ・集中のペースで進める数週間のプラン","ロック画面とDynamic Islandにも表示されるビジュアルタイマー（ライブアクティビティ）","「詰まった、もっと小さくして」：ステップを1〜3分のミニステップに分割","リマインダー付きのルーティン。iOS 26ではアラームのように鳴らせる","「飲んだ」ボタン、Siri、7日間の記録、やさしい再確認つきの薬のリマインダー","集中サウンド：ブラウンノイズ、ピンクノイズ、雨音、波の音、暖炉","ボディダブリング：となりで作業するTinyと、いま集中している人数の匿名表示","何がじゃまをしたかを聞き、催促せずにプランを変えるフォロー","連続記録が途切れない1〜3日のお休み","試験のカウントダウンと、セッション後の思い出し練習つきの勉強プラン","はかどる時間帯を端末の中で分析","実際の所要時間を学ぶ時間の見積もり","ウィジェット、コントロールセンター、Siri、ショートカット","iPhoneとiPadのあいだでiCloud同期","アカウント不要、広告なし、トラッキングなし。AIは同意したときだけ"],"keywords":"ADHD タスク管理, タスク 分解, ビジュアルタイマー, 時間感覚, ボディダブリング, 薬 飲み忘れ防止, ルーティン, 先延ばし, 集中タイマー, 勉強計画","inLanguage":["en","ar","cs","da","de","el","es","es-419","fi","fr","he","hu","id","it","ja","ko","nb","nl","pl","pt-BR","pt-PT","ro","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],"isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free","availability":"https://schema.org/InStock","url":"https://apps.apple.com/jp/app/id6824203447","description":"無料でダウンロードできます。オプションのTinydo Pro（週額・月額・年額の自動更新サブスクリプション、App内課金）は、新規登録の方に3日間の無料トライアルがあります。"},"publisher":{"@id":"https://faruksengul.github.io/unstuck/#org"},"author":{"@id":"https://faruksengul.github.io/unstuck/#org"}},{"@type":"FAQPage","@id":"https://faruksengul.github.io/unstuck/ja/#faq","url":"https://faruksengul.github.io/unstuck/ja/","inLanguage":"ja","isPartOf":{"@id":"https://faruksengul.github.io/unstuck/ja/#webpage"},"mainEntity":[{"@type":"Question","name":"Tinydoとは何ですか？","acceptedAnswer":{"@type":"Answer","text":"Tinydo（App Storeでの名前は「Tinydo: ADHD タスク管理・集中タイマー」）は、ADHDの人や、なかなか始められないすべての人のためのiPhone・iPadアプリです。アプリのキャラクターTinyにいまの状況を話すと、Tinydoが小さなステップに分け、ビジュアルタイマーで一つずつ進め、できなかったときはやさしく声をかけます。ルーティン、薬のリマインダー、集中サウンド、勉強プランもあります。開発はトルコの独立系デベロッパー、Gokche Techです。"}},{"@type":"Question","name":"ADHDで圧倒されるタスクを、Tinydoは小さく分解できますか？","acceptedAnswer":{"@type":"Answer","text":"はい、それがTinydoの中心です。タスクを自分の言葉で入力するか話してください。たとえば「キッチンを片付ける」「卒論を始める」。許可があれば、TinyがAI（Claude by Anthropic）を使って、やさしいものから順に数分ずつの小さなステップに分け、最初のひとつだけを見せます。大きな目標は、選んだ曜日に短いセッションを並べたプランになります。それでも大きく感じたら、「詰まった、もっと小さくして」で1〜3分のミニステップに分かれます。AIなしでも、組み込みのシンプルなステップが使えます。"}},{"@type":"Question","name":"時間感覚が苦手な人向けのビジュアルタイマーはありますか？","acceptedAnswer":{"@type":"Answer","text":"はい。各ステップはビジュアルタイマーで進み、残り時間は小さくなっていく扇形で表示されるので、時間の経過がひと目でわかります。ライブアクティビティとして、ロック画面とDynamic Islandにも表示されます。いくつかステップを終えると、Tinydoは見積もりと実際の所要時間を比べ、より現実的な時間を表示します。"}},{"@type":"Question","name":"ADHDの薬の飲み忘れを防ぐリマインダーとして使えますか？","acceptedAnswer":{"@type":"Answer","text":"はい。薬を飲む時間にリマインダーを追加してください。アプリを初めて開いたときに設定することもできます。通知の「飲んだ」をタップするか、Siriに伝えます。記録がないと、Tinyが20分後と1時間後にもう一度確認し、それ以上はしつこくしません。設定しない限り、ロック画面に薬の名前は表示されません。直近7日間の服用記録も確認できます。Tinydoはあなたが決めた時間をお知らせするもので、医療や服用量についての助言はしません。"}},{"@type":"Question","name":"Tinydoはボディダブリングのアプリですか？","acceptedAnswer":{"@type":"Answer","text":"ひとりで使えるかたちのボディダブリングがあります。タイマーが動いているあいだ、Tinyがとなりで読書や編み物などの静かなことをしていて、ロック画面にも表示されます。同じ時間に集中しているほかのTinydoユーザーの人数が匿名で表示され、アプリを離れると半分のところでTinyが一度だけ声をかけます。ビデオ通話、チャット、実在の人とのセッションはありません。"}},{"@type":"Question","name":"1日できなかったり、途中でやめたりしたらどうなりますか？","acceptedAnswer":{"@type":"Answer","text":"赤い印はつきません。Tinyが何がじゃまをしたかを聞き、ぐっと小さなステップ、2分だけ、リマインダー付きで明日に、などの手立てを提案します。同じ理由が続けば、Tinyはプランを変えます。数日離れていたあとは、溜まったタスクではなく、2分のステップひとつでアプリが開きます。1〜3日のお休みも取れます。そのあいだは「できなかった」と記録されず、連続記録もそのままです。"}},{"@type":"Question","name":"Tinydoは無料ですか？ Tinydo Proはいくらですか？","acceptedAnswer":{"@type":"Answer","text":"Tinydoは無料でダウンロードできます。無料プランには、AIで「Tinyに話す」が1日3回、プラン1つ、最初のルーティン、タイマー、リマインダー、集中サウンド、履歴が含まれます。Tinydo Proでは、AIの利用が1日最大40回、プランとルーティンが無制限になり、集中のパターンもわかります。Proは週額・月額・年額のサブスクリプションで、新規登録の方には3日間の無料トライアルがあります。お住まいの国の通貨での価格は、登録前にアプリ内に表示されます。"}},{"@type":"Question","name":"アカウント登録や広告、トラッキングはありますか？","acceptedAnswer":{"@type":"Answer","text":"アカウント不要、広告なし、トラッキングなしです。タスクと履歴は、端末とあなた専用のiCloudに保存されます。アプリ改善のため、タスクの内容や名前を含まない匿名の利用イベントとクラッシュレポートを送信しますが、設定でオフにできます。支払いはAppleを通じて行われるため、開発者があなたの支払い情報を見ることはありません。"}},{"@type":"Question","name":"TinydoのAIには何が送られますか？ AIなしでも使えますか？","acceptedAnswer":{"@type":"Answer","text":"TinyがはじめてAIを使うとき、アプリはあなたに確認し、何が送られるかを一覧で示します。同意すると、Tinyに話した内容、以前に話したことの短い要約、最初に選んだ悩みと1日でいちばんつらい時間帯、言語、今日の日付が、返事を書くためにTinydoのサーバーとClaude by Anthropicに送られます。Tinydoはそれを保存せず、Anthropicが学習に使うこともなく、販売されることもありません。同意しない場合、Tinydoは組み込みのステップを使い、AIには何も送りません。この設定は「設定」→「プライバシー」でいつでも変更できます。"}},{"@type":"Question","name":"Tinydoは医療アプリですか？ ADHDの診断は必要ですか？","acceptedAnswer":{"@type":"Answer","text":"どちらも違います。Tinydoは計画と集中のための相棒アプリで、医療機器ではありません。ADHDやその他の状態を診断・治療・治癒するものではなく、緊急支援のサービスでもなく、専門家によるケアの代わりにもなりません。使うのに診断は必要なく、アプリが診断の有無を尋ねることもありません。自分を傷つけてしまいそうなときや危険な状況にあるときは、すぐに地域の緊急通報番号に連絡するか、findahelpline.comで相談窓口を探してください。"}},{"@type":"Question","name":"どのデバイスと言語に対応していますか？","acceptedAnswer":{"@type":"Answer","text":"iOS／iPadOS 18以降のiPhoneとiPadに対応し、データはあなた専用のiCloudで同期されます。Android版、Windows版、Web版はありません。アプリは日本語、英語、韓国語、中国語、スペイン語、ポルトガル語、フランス語、ドイツ語、イタリア語、オランダ語、トルコ語を含む30言語で使えます。"}},{"@type":"Question","name":"Tinydo Proや無料トライアルはどうやって解約しますか？","acceptedAnswer":{"@type":"Answer","text":"iPhoneまたはiPadの「設定」アプリを開き、ユーザ名、「サブスクリプション」、Tinydoの順にタップします。Tinydoの設定にある「サブスクリプションを管理」からも開けます。次の請求を避けるには、トライアルまたは現在の期間が終わる24時間前までに解約してください。通知がオンなら、無料トライアルが終わる前にTinyがお知らせします。返金はAppleがreportaproblem.apple.comで受け付けています。"}}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">本文へスキップ</a>
+<header class="top">
+<a class="brand" href="./"><img src="../favicon.png" width="32" height="32" alt="">Tinydo</a>
+<nav class="links" aria-label="セクション"><a href="./#features">機能</a><a href="./#pricing">料金</a><a href="./#faq">よくある質問</a><a href="../support/">サポート</a></nav>
+<details class="lang"><summary aria-label="言語: 日本語"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg><span>JA</span></summary>
+<ul><li><a href="../" hreflang="en" lang="en">English</a></li><li><a href="../es/" hreflang="es" lang="es">Español</a></li><li><a href="../pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="../it/" hreflang="it" lang="it">Italiano</a></li><li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="../ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a></li><li><a href="../ko/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
+<a class="btn small" href="https://apps.apple.com/jp/app/id6824203447">アプリを入手</a>
+</header>
+<main id="main">
+<div class="wrap">
+<section class="hero" aria-labelledby="top-h">
+<div>
+<p class="eyebrow">動けないのは、怠けじゃない。</p>
+<h1 id="top-h">Tinydo：ADHDの人のためのタスク管理・集中アプリ（iPhone・iPad）</h1>
+<p class="lede">始められないことを、Tinyに話してください。Tinydoが小さなステップに分け、ビジュアルタイマーで一つずつ進め、できなかったときはやさしく声をかけます。</p>
+<p class="sub">診断の有無にかかわらず、ADHDの大人や学生に。そして、つい動けなくなる人、先延ばししてしまうすべての人に。</p>
+<a class="btn" href="https://apps.apple.com/jp/app/id6824203447"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>App Storeからダウンロード</a>
+<p class="note">無料 · iPhone・iPad · iOS 18以降</p>
+<ul class="pills" aria-label="プライバシー"><li>アカウント不要</li><li>広告なし</li><li>トラッキングなし</li><li>AIは許可したときだけ</li></ul>
+</div>
+<figure class="shot"><img src="../img/ja/tell-tiny.jpg" width="480" height="1043" alt="「Tinyに話す」画面：大きなことを最初の一歩まで小さくし、ゆったり・コツコツ・集中の3つのペースを提案している。" fetchpriority="high"></figure>
+</section>
+<section id="at-a-glance" aria-labelledby="facts-h">
+<h2 id="facts-h">Tinydoの概要</h2>
+<dl class="facts"><div><dt>どんなアプリ？</dt><dd>ADHDにやさしいタスク管理・集中アプリ。AIによるタスク分解、ビジュアルタイマー、ルーティン、薬のリマインダー、集中サウンド、やさしいフォローがあります。</dd></div><div><dt>対象</dt><dd>ADHDの人（診断は不要）、学生、子育て中の人、先延ばしや「始められない」に悩むすべての人。</dd></div><div><dt>対応デバイス</dt><dd>iOS／iPadOS 18以降のiPhoneとiPad。あなた専用のiCloudで同期します。Android版はありません。</dd></div><div><dt>料金</dt><dd>無料でダウンロード。オプションのTinydo Pro（週額・月額・年額）は、新規登録の方に3日間の無料トライアルがあります。</dd></div><div><dt>プライバシー</dt><dd>アカウント不要、広告なし、トラッキングなし。AIはあなたが許可したときだけ使われます。</dd></div><div><dt>言語</dt><dd>日本語、英語、韓国語、中国語（簡体字・繁体字）、スペイン語、フランス語、ドイツ語などを含む30言語。</dd></div><div><dt>開発者</dt><dd>Gokche Tech（トルコの独立系デベロッパー）。</dd></div></dl>
+</section>
+<section id="features" aria-labelledby="features-h">
+<h2 id="features-h">Tinydoでできること</h2>
+<p class="intro">Tinydoの考え方はひとつ。必要なのは長いリストではなく、次の小さな一歩と、声をかけてくれる誰か。できることをすべて紹介します。</p>
+<article class="feature" id="tell-tiny"><div><h3>Tinyに話す：始められないことを、AIが小さく分解</h3><p>友だちに話すみたいに、いまの状況を文字か声で伝えるだけ。「キッチンがひどいことになってる」「1月に試験があるのに、参考書を開けない」「ランニングを始めたい」。Tinyは受け止めたことを言葉にして返し、目の前の山を今日の最初の一歩まで小さくします。一歩はたいてい2〜10分です。</p><p>大きなことなら、ペース（ゆったり・コツコツ・集中）と、暮らしに合う曜日と時間を選ぶだけ。Tinyが小さなセッションを組み立てて、次にやることだけを見せます。AIをオフにしているときやオフラインのときも、Tinydoに組み込まれたシンプルなステップが使えます。</p></div></article>
+<article class="feature has-shot" id="visual-timer"><div><h3>ひとつのステップ、ひとつのビジュアルタイマー（時間感覚が苦手な人に）</h3><p>「いま」画面に出るのは、リストではなく、やることひとつだけ。各ステップはビジュアルタイマーで進みます。残り時間は12時の方向へ小さくなっていく色付きの扇形なので、数字を読まなくても時間が過ぎていくのが見えます。</p><p>タイマーはライブアクティビティとして、ロック画面とDynamic Islandにも表示されます。途中で詰まったら「詰まった、もっと小さくして」をタップすると、1〜3分のミニステップに分かれます。5分延長もできます。さらにTinydoは、見積もりに比べて実際にどれくらいかかるかを学び、現実的な所要時間を表示します。</p></div><figure class="shot"><img src="../img/ja/visual-timer.jpg" width="480" height="1043" alt="集中画面：「台の上のゴミを捨てる」ステップのビジュアルタイマーが2:53を示している。" loading="lazy" decoding="async"></figure></article>
+<article class="feature" id="routines"><div><h3>ルーティンと、穏やかな1日のプラン</h3><p>朝・夜・毎日のルーティンを、あなたに合う曜日と時間のリマインダー付きで作れます。「週に好きな3日」のような週の目標も設定できます。iOS 26では、ルーティンをアラームのように鳴らすこともできます。</p><p>「プラン」タブには、ルーティン、タスク、プランのセッション、そして許可すればカレンダーの予定が、ひとつのタイムラインに並びます。今日、明日、いつか、または時間を指定して予定を立て、どのタスクや勉強プランもカレンダーに追加できます。</p></div></article>
+<article class="feature has-shot flip" id="medication-reminders"><div><h3>飲んだか確認してくれる、薬のリマインダー</h3><p>薬を飲む時間にリマインダーを設定します。通知から「飲んだ」をワンタップ、またはSiriに伝えるだけ。服用は時刻とともに記録され、薬カードで直近7日間をひと目で確認できます。</p><p>記録がないと、Tinyが20分後にやさしくもう一度、1時間後に最後にもう一度確認し、それ以上はしつこくしません。初期設定では、ロック画面に薬の名前は表示されません。ほかのすべてをお休みしているときも、薬のリマインダーは続きます。Tinydoはあなたが決めた時間をお知らせするだけで、医療や服用量についての助言はしません。</p></div><figure class="shot"><img src="../img/ja/medication-reminder.jpg" width="480" height="1043" alt="「日々」画面の薬カード：「飲んだ」ボタンと、服用した時刻つきの7日間の記録。" loading="lazy" decoding="async"></figure></article>
+<article class="feature" id="focus-sounds"><div><h3>集中サウンドと、音でわかるリマインダー</h3><p>作業中に、ブラウンノイズ、ピンクノイズ、雨音、波の音、暖炉の音を流せます。リマインダーごとにTinydoのために作った音があります。薬は錠剤ボトルのチャイム、水はしずく、勉強は学校のチャイム、家のことはドアベル。画面を見る前に、何の知らせかわかります。</p></div></article>
+<article class="feature" id="body-doubling"><div><h3>ビデオ通話なしのボディダブリング</h3><p>ステップを進めているあいだ、Tinyもとなりで自分の小さなことをしています。本を読んだり、小さなマフラーを編んだり、植物に水をあげたり。ロック画面にも表示されます。同じ時間に集中しているほかのTinydoユーザーの人数も、匿名で表示されます。名前もチャットもカメラもありません。人数の表示は設定でオフにできます。</p><p>ステップの途中でアプリを離れると、半分のところでTinyが一度だけ声をかけます。ちゃんと進んでいること、終わるまでそばにいることを伝えます。</p></div></article>
+<article class="feature has-shot" id="follow-ups"><div><h3>できなかったときの、やさしいフォロー</h3><p>途中でやめた、飛ばした、明日にした？ Tinyは何がじゃまをしたのか聞きます。大きすぎた、時間がなかった、疲れてた、不安だった、気が散った、忘れてた。どの答えにも、ちゃんとした手立てがあります。ぐっと小さくする、2分だけやる、リマインダー付きで明日に、または集中サウンド。同じことが何度もじゃまをするなら、Tinyは催促するのではなく、プランのほうを変えます。</p><p>何日か離れていた？ 溜まったタスクの山ではなく、あたたかい「おかえり」と2分のステップひとつで迎えます。休みたいときは1〜3日お休みできます。そのあいだは「できなかった」と記録されず、連続記録もそのまま。続くのは薬のリマインダーだけです。Tinyからのメッセージは多くても1日1回で、21:30〜8:00のあいだには届きません。</p></div><figure class="shot"><img src="../img/ja/change-the-plan.jpg" width="480" height="1043" alt="ステップを中断したあとの画面：前回と同じ理由に気づいたTinyが、プランを変える方法を提案している。" loading="lazy" decoding="async"></figure></article>
+<article class="feature" id="study"><div><h3>勉強プランと試験のカウントダウン</h3><p>試験日を入れると、Tinyがカウントダウン付きで、軽めの勉強セッションを定期的に組み立てます。セッションのあとは本を閉じて、覚えていることをメモ。次のセッションは、それを思い出すところから始まります。思い出すことが、記憶に残るコツです。</p></div></article>
+<article class="feature" id="insights"><div><h3>Tinyがあなたを知っていく（学習は端末の中だけ）</h3><p>Tinydoは、あなたが実際にやり終えられている時間帯、何度も後回しになっていること、効いた助けに気づいて、むずかしいことにはもっと合う時間をやさしく提案します。「Tinyが知っていること」で、そのすべてをわかりやすい言葉で確認でき、ワンタップで忘れさせることもできます。この学習はあなたの端末の中で行われ、私たちにもAIにも送られません。</p><p>「日々」タブでは、毎日やったこと、自己ベストの連続記録、穏やかな8週間のグラフが見られます。数字は増えていくだけ。赤い印も、罪悪感もありません。Proでは、集中のパターン（いちばんはかどる時間帯・曜日、先週との比較）がわかります。</p></div></article>
+<article class="feature" id="widgets"><div><h3>ウィジェット、ライブアクティビティ、Siri、ショートカット</h3><ul><li>ホーム画面とロック画面のウィジェット：次のルーティン、今日の達成、ワンタップで「Tinyに話す」</li><li>ステップ中は、ロック画面とDynamic Islandにライブアクティビティを表示</li><li>コントロールセンターから、次のことを始めたり、Tinyに話したりできるコントロール</li><li>Siriとショートカット：次のことを始める、Tinyに話す、薬を飲んだと記録する</li><li>iPhoneとiPadのあいだでiCloud同期</li><li>6つの落ち着いたカラーテーマ、ダークモード、Dynamic Type、VoiceOver、動きを抑える設定に対応</li></ul></div></article>
+<article class="feature" id="privacy"><div><h3>プライバシーを守る設計</h3><p>アカウント不要。広告なし。トラッキングなし。タスク、履歴、Tinyがあなたについて学んだことは、端末と、私たちには読めないあなた専用のiCloudに保存されます。</p><p>TinyのAIは、あなたが許可したときだけ動きます。許可すると、Tinyに話した内容が、返事をするために当社のサーバーとClaude by Anthropicに送られます。私たちは保存せず、販売されることも、広告に使われることも一切ありません。許可しない場合、Tinydoは組み込みのステップを使い、AIには何も送りません。タスクの内容や名前を含まない匿名の利用統計とクラッシュレポートはアプリの改善に使われ、設定でオフにできます。<a href="../privacy/">プライバシーポリシーを読む（英語）</a></p></div></article>
+</section>
+</div>
+<div class="band">
+<div class="wrap">
+<section id="who" aria-labelledby="who-h">
+<h2 id="who-h">Tinydoはこんな人のためのアプリです</h2>
+<div class="cols">
+<div class="card"><h3>こんな人にぴったり</h3><ul class="check"><li>ADHDがある（診断の有無は問いません）。やることはわかっているのに、始められない</li><li>試験、課題、卒業論文を抱えている学生</li><li>薬、食事、家のこと、仕事に追われて、つい抜け落ちてしまう</li><li>仕事が遅れていて、むずかしいことをつい避けてしまう</li><li>時間の感覚がつかめず、どれくらいかかるかわからない</li><li>増えていくばかりのやることリストに疲れている</li></ul></div>
+<div class="card"><h3>こんな人には向いていないかもしれません</h3><ul class="check dash"><li>診断、治療、緊急支援を求めている。Tinydoはそのどれでもありません。</li><li>Androidを使っている。TinydoはiPhoneとiPadだけのアプリです。</li><li>共有リストやチームのプロジェクト管理がしたい。Tinydoは個人向けです。</li><li>1時間単位でびっしり埋める、カレンダー中心の詳細な手帳がほしい。</li></ul></div>
+</div>
+</section>
+<section id="different" aria-labelledby="diff-h">
+<h2 id="diff-h">Tinydoがほかと違うところ</h2>
+<ul class="diff"><li><strong>カレンダーからではなく、「動けないこと」から始まる。</strong>気が重いことをTinyに話すと、最初の一歩が届きます。リストは裏に控えています。</li><li><strong>ステップのあいだ、そばにいる。</strong>ひとつのビジュアルタイマー、となりで作業するTiny、そして半分のところでのひと声。</li><li><strong>フォローして、プランを変える。</strong>できなかったことは、赤い期限切れリストではなく、もっと小さな一歩やもっと合う時間に変わります。</li><li><strong>あなたのパターンを端末の中で学ぶ。</strong>学んだことはすべてわかりやすい言葉で確認でき、消すこともできます。</li><li><strong>お休みにやさしい。</strong>休みの日は連続記録を途切れさせず、戻るときは2分から。</li><li><strong>プライバシーを大切にする。</strong>アカウント不要、広告なし、トラッキングなし。AIはあなたの同意があるときだけ。</li></ul>
+</section>
+</div>
+</div>
+<div class="wrap">
+<section id="pricing" aria-labelledby="pricing-h">
+<h2 id="pricing-h">料金</h2>
+<p class="intro">Tinydoは無料でダウンロードでき、お金を払わなくても使えます。Tinydo Proは、毎日Tinyを頼りにする人のためのオプションのサブスクリプションです。</p>
+<div class="cols">
+<div class="card plan"><h3>無料</h3><p class="price">期間の制限なし</p><ul class="check"><li>AIで「Tinyに話す」が1日3回</li><li>プラン1つ（数週間にわたるセッション付きの目標）</li><li>最初のルーティン（設定時に追加すれば薬のリマインダーも）</li><li>自分で追加するタスク、ビジュアルタイマー、リマインダー、集中サウンド</li><li>日々の記録、歩みのグラフ、「Tinyが知っていること」</li></ul></div>
+<div class="card plan pro"><h3>Tinydo Pro</h3><p class="price">週額・月額・年額のサブスクリプション</p><ul class="check"><li>Tinyと一緒に考えるセッションが1日最大40回</li><li>プランとルーティンが無制限</li><li>集中のパターン：はかどる時間帯・曜日、先週との比較</li><li>新規登録の方は、どのプランでも3日間の無料トライアル</li><li>トライアルが終わる前にTinyがお知らせ（通知オン時）</li></ul></div>
+</div>
+<p class="fine">価格はApp Storeによってお住まいの国の通貨で設定され、登録前にアプリ内に表示されます。</p>
+<p class="fine">お支払いはApple Accountに請求されます。サブスクリプションは、現在の期間が終わる24時間前までに解約しない限り、自動更新されます。解約はいつでも「設定」&gt;ユーザ名&gt;「サブスクリプション」から行えます。</p>
+</section>
+<section id="faq" aria-labelledby="faq-h">
+<h2 id="faq-h">よくある質問</h2>
+<div class="qa"><h3 id="faq-1">Tinydoとは何ですか？</h3><p>Tinydo（App Storeでの名前は「Tinydo: ADHD タスク管理・集中タイマー」）は、ADHDの人や、なかなか始められないすべての人のためのiPhone・iPadアプリです。アプリのキャラクターTinyにいまの状況を話すと、Tinydoが小さなステップに分け、ビジュアルタイマーで一つずつ進め、できなかったときはやさしく声をかけます。ルーティン、薬のリマインダー、集中サウンド、勉強プランもあります。開発はトルコの独立系デベロッパー、Gokche Techです。</p></div><div class="qa"><h3 id="faq-2">ADHDで圧倒されるタスクを、Tinydoは小さく分解できますか？</h3><p>はい、それがTinydoの中心です。タスクを自分の言葉で入力するか話してください。たとえば「キッチンを片付ける」「卒論を始める」。許可があれば、TinyがAI（Claude by Anthropic）を使って、やさしいものから順に数分ずつの小さなステップに分け、最初のひとつだけを見せます。大きな目標は、選んだ曜日に短いセッションを並べたプランになります。それでも大きく感じたら、「詰まった、もっと小さくして」で1〜3分のミニステップに分かれます。AIなしでも、組み込みのシンプルなステップが使えます。</p></div><div class="qa"><h3 id="faq-3">時間感覚が苦手な人向けのビジュアルタイマーはありますか？</h3><p>はい。各ステップはビジュアルタイマーで進み、残り時間は小さくなっていく扇形で表示されるので、時間の経過がひと目でわかります。ライブアクティビティとして、ロック画面とDynamic Islandにも表示されます。いくつかステップを終えると、Tinydoは見積もりと実際の所要時間を比べ、より現実的な時間を表示します。</p></div><div class="qa"><h3 id="faq-4">ADHDの薬の飲み忘れを防ぐリマインダーとして使えますか？</h3><p>はい。薬を飲む時間にリマインダーを追加してください。アプリを初めて開いたときに設定することもできます。通知の「飲んだ」をタップするか、Siriに伝えます。記録がないと、Tinyが20分後と1時間後にもう一度確認し、それ以上はしつこくしません。設定しない限り、ロック画面に薬の名前は表示されません。直近7日間の服用記録も確認できます。Tinydoはあなたが決めた時間をお知らせするもので、医療や服用量についての助言はしません。</p></div><div class="qa"><h3 id="faq-5">Tinydoはボディダブリングのアプリですか？</h3><p>ひとりで使えるかたちのボディダブリングがあります。タイマーが動いているあいだ、Tinyがとなりで読書や編み物などの静かなことをしていて、ロック画面にも表示されます。同じ時間に集中しているほかのTinydoユーザーの人数が匿名で表示され、アプリを離れると半分のところでTinyが一度だけ声をかけます。ビデオ通話、チャット、実在の人とのセッションはありません。</p></div><div class="qa"><h3 id="faq-6">1日できなかったり、途中でやめたりしたらどうなりますか？</h3><p>赤い印はつきません。Tinyが何がじゃまをしたかを聞き、ぐっと小さなステップ、2分だけ、リマインダー付きで明日に、などの手立てを提案します。同じ理由が続けば、Tinyはプランを変えます。数日離れていたあとは、溜まったタスクではなく、2分のステップひとつでアプリが開きます。1〜3日のお休みも取れます。そのあいだは「できなかった」と記録されず、連続記録もそのままです。</p></div><div class="qa"><h3 id="faq-7">Tinydoは無料ですか？ Tinydo Proはいくらですか？</h3><p>Tinydoは無料でダウンロードできます。無料プランには、AIで「Tinyに話す」が1日3回、プラン1つ、最初のルーティン、タイマー、リマインダー、集中サウンド、履歴が含まれます。Tinydo Proでは、AIの利用が1日最大40回、プランとルーティンが無制限になり、集中のパターンもわかります。Proは週額・月額・年額のサブスクリプションで、新規登録の方には3日間の無料トライアルがあります。お住まいの国の通貨での価格は、登録前にアプリ内に表示されます。</p></div><div class="qa"><h3 id="faq-8">アカウント登録や広告、トラッキングはありますか？</h3><p>アカウント不要、広告なし、トラッキングなしです。タスクと履歴は、端末とあなた専用のiCloudに保存されます。アプリ改善のため、タスクの内容や名前を含まない匿名の利用イベントとクラッシュレポートを送信しますが、設定でオフにできます。支払いはAppleを通じて行われるため、開発者があなたの支払い情報を見ることはありません。</p></div><div class="qa"><h3 id="faq-9">TinydoのAIには何が送られますか？ AIなしでも使えますか？</h3><p>TinyがはじめてAIを使うとき、アプリはあなたに確認し、何が送られるかを一覧で示します。同意すると、Tinyに話した内容、以前に話したことの短い要約、最初に選んだ悩みと1日でいちばんつらい時間帯、言語、今日の日付が、返事を書くためにTinydoのサーバーとClaude by Anthropicに送られます。Tinydoはそれを保存せず、Anthropicが学習に使うこともなく、販売されることもありません。同意しない場合、Tinydoは組み込みのステップを使い、AIには何も送りません。この設定は「設定」→「プライバシー」でいつでも変更できます。</p></div><div class="qa"><h3 id="faq-10">Tinydoは医療アプリですか？ ADHDの診断は必要ですか？</h3><p>どちらも違います。Tinydoは計画と集中のための相棒アプリで、医療機器ではありません。ADHDやその他の状態を診断・治療・治癒するものではなく、緊急支援のサービスでもなく、専門家によるケアの代わりにもなりません。使うのに診断は必要なく、アプリが診断の有無を尋ねることもありません。自分を傷つけてしまいそうなときや危険な状況にあるときは、すぐに地域の緊急通報番号に連絡するか、findahelpline.comで相談窓口を探してください。</p></div><div class="qa"><h3 id="faq-11">どのデバイスと言語に対応していますか？</h3><p>iOS／iPadOS 18以降のiPhoneとiPadに対応し、データはあなた専用のiCloudで同期されます。Android版、Windows版、Web版はありません。アプリは日本語、英語、韓国語、中国語、スペイン語、ポルトガル語、フランス語、ドイツ語、イタリア語、オランダ語、トルコ語を含む30言語で使えます。</p></div><div class="qa"><h3 id="faq-12">Tinydo Proや無料トライアルはどうやって解約しますか？</h3><p>iPhoneまたはiPadの「設定」アプリを開き、ユーザ名、「サブスクリプション」、Tinydoの順にタップします。Tinydoの設定にある「サブスクリプションを管理」からも開けます。次の請求を避けるには、トライアルまたは現在の期間が終わる24時間前までに解約してください。通知がオンなら、無料トライアルが終わる前にTinyがお知らせします。返金はAppleがreportaproblem.apple.comで受け付けています。</p></div>
+</section>
+<section class="final" aria-labelledby="final-h">
+<h2 id="final-h">小さな一歩から始めよう</h2>
+<p>TinydoはiPhone・iPad向けにApp Storeで無料配信中です。アカウント不要、広告なし、トラッキングなし。</p>
+<a class="btn" href="https://apps.apple.com/jp/app/id6824203447"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>App Storeからダウンロード</a>
+</section>
+</div>
+</main>
+<footer>
+<div class="wrap">
+<ul class="flinks">
+<li><a href="../support/">サポート（英語）</a></li>
+<li><a href="../privacy/">プライバシーポリシー（英語）</a></li>
+<li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">利用規約</a></li>
+<li><a href="../llms-full.txt" hreflang="en">テキスト版の概要（英語）</a></li>
+<li><a href="mailto:support@gokchetech.com">support@gokchetech.com</a></li>
+</ul>
+<p>Tinydoは、トルコの独立系デベロッパーGokche Techが開発しています。ご質問やご意見は <a href="mailto:support@gokchetech.com">support@gokchetech.com</a> まで。</p>
+<p>Tinydoは計画と集中のための相棒アプリです。医療上の助言や治療、緊急支援のサービスではありません。危険な状況にあるときは、地域の緊急通報番号に連絡するか、<a href="https://findahelpline.com">findahelpline.com</a>をご覧ください。</p>
+<nav aria-label="言語"><ul class="flangs"><li><a href="../" hreflang="en" lang="en">English</a></li><li><a href="../es/" hreflang="es" lang="es">Español</a></li><li><a href="../pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="../it/" hreflang="it" lang="it">Italiano</a></li><li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li><li><a href="../ko/" hreflang="ko" lang="ko">한국어</a></li></ul></nav>
+<p>Apple、iPhone、iPad、Siri、App Storeは、米国およびその他の国で登録されたApple Inc.の商標です。</p>
+</div>
+</footer>
+</body>
+</html>
