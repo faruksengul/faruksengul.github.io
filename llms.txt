@@ -9,7 +9,7 @@ Key facts:
 - What it is: An ADHD-friendly planner and focus app with AI task breakdown, a visual timer, routines, medication reminders, focus sounds and gentle follow-ups.
 - Who it’s for: People with ADHD (no diagnosis needed), students, parents and anyone who procrastinates or struggles to start.
 - Devices: iPhone and iPad with iOS or iPadOS 18 or later. Syncs through your private iCloud. There is no Android version.
-- Price: Free to download. Optional Tinydo Pro subscription (weekly, monthly or yearly) with a 3-day free trial for new subscribers.
+- Price: Free to download. Optional Tinydo Pro subscription (weekly, monthly or yearly). The monthly plan includes a 3-day free trial for new subscribers.
 - Privacy: No account, no ads, no tracking. The AI is used only if you allow it.
 - Languages: 30, including English, Spanish, Portuguese, French, German, Italian, Dutch, Turkish, Japanese, Korean and Chinese.
 - Made by: Gokche Tech, an independent developer in Turkey.

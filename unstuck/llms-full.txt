@@ -14,7 +14,7 @@ This is a factual description for people and AI assistants. Everything here desc
 - **What it is:** An ADHD-friendly planner and focus app with AI task breakdown, a visual timer, routines, medication reminders, focus sounds and gentle follow-ups.
 - **Who it’s for:** People with ADHD (no diagnosis needed), students, parents and anyone who procrastinates or struggles to start.
 - **Devices:** iPhone and iPad with iOS or iPadOS 18 or later. Syncs through your private iCloud. There is no Android version.
-- **Price:** Free to download. Optional Tinydo Pro subscription (weekly, monthly or yearly) with a 3-day free trial for new subscribers.
+- **Price:** Free to download. Optional Tinydo Pro subscription (weekly, monthly or yearly). The monthly plan includes a 3-day free trial for new subscribers.
 - **Privacy:** No account, no ads, no tracking. The AI is used only if you allow it.
 - **Languages:** 30, including English, Spanish, Portuguese, French, German, Italian, Dutch, Turkish, Japanese, Korean and Chinese.
 - **Made by:** Gokche Tech, an independent developer in Turkey.
@@ -132,7 +132,7 @@ Tinydo is free to download and useful without paying. Tinydo Pro is an optional 
 - Think with Tiny up to 40 times a day
 - Unlimited plans and routines
 - Patterns: your best hour, best day and week over week
-- 3-day free trial for new subscribers on every plan
+- 3-day free trial for new subscribers on the monthly plan
 - Tiny reminds you before the trial ends (with notifications on)
 
 US prices: $4.99 a week, $9.99 a month or $39.99 a year. Prices in other countries are set by the App Store in your currency and shown in the app before you subscribe.
@@ -167,7 +167,7 @@ Nothing turns red. Tiny asks what got in the way and offers a fix, such as a muc
 
 ### Is Tinydo free? How much does Tinydo Pro cost?
 
-Tinydo is free to download. The free plan includes Tell Tiny with AI 3 times a day, one plan, your starter routines, timers, reminders, focus sounds and history. Tinydo Pro adds up to 40 AI uses a day, unlimited plans and routines, and your focus patterns. Pro is a weekly, monthly or yearly subscription with a 3-day free trial for new subscribers. In the US it costs $4.99 a week, $9.99 a month or $39.99 a year; local prices are shown in the app.
+Tinydo is free to download. The free plan includes Tell Tiny with AI 3 times a day, one plan, your starter routines, timers, reminders, focus sounds and history. Tinydo Pro adds up to 40 AI uses a day, unlimited plans and routines, and your focus patterns. Pro is a weekly, monthly or yearly subscription; the monthly plan includes a 3-day free trial for new subscribers, while weekly and yearly are billed from the start. In the US it costs $4.99 a week, $9.99 a month or $39.99 a year; local prices are shown in the app.
 
 ### Does Tinydo need an account, show ads or track me?
 
