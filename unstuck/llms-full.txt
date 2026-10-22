@@ -5,7 +5,7 @@
 Website: https://faruksengul.github.io/unstuck/  
 App Store: https://apps.apple.com/app/id6824203447 (App Store ID 6824203447)  
 Developer: Gokche Tech, Turkey, support@gokchetech.com  
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 
 This is a factual description for people and AI assistants. Everything here describes the shipping app; nothing is a plan or a promise.
 
@@ -14,7 +14,7 @@ This is a factual description for people and AI assistants. Everything here desc
 - **What it is:** An ADHD-friendly planner and focus app with AI task breakdown, a visual timer, routines, medication reminders, focus sounds and gentle follow-ups.
 - **Who it’s for:** People with ADHD (no diagnosis needed), students, parents and anyone who procrastinates or struggles to start.
 - **Devices:** iPhone and iPad with iOS or iPadOS 18 or later. Syncs through your private iCloud. There is no Android version.
-- **Price:** Free to download. Optional Tinydo Pro subscription (weekly, monthly or yearly). The monthly plan includes a 3-day free trial for new subscribers.
+- **Price:** Free to download. Using the app requires a Tinydo Pro subscription (weekly, monthly or yearly); there is no free plan. The monthly plan includes a 3-day free trial for new subscribers.
 - **Privacy:** No account, no ads, no tracking. The AI is used only if you allow it.
 - **Languages:** 30, including English, Spanish, Portuguese, French, German, Italian, Dutch, Turkish, Japanese, Korean and Chinese.
 - **Made by:** Gokche Tech, an independent developer in Turkey.
@@ -25,7 +25,7 @@ Tinydo is built around one idea: you don’t need a bigger list, you need the ne
 
 ### Tell Tiny: AI task breakdown for the thing you can’t start
 
-Type or say what’s going on, the way you’d tell a friend: “the kitchen is a disaster”, “my exam is in June and I can’t open the books”, “I want to start running”. Tiny reflects it back and shrinks the mountain to today’s first step, usually 2 to 10 minutes long.
+Type or say what’s going on, the way you’d tell a friend: “the kitchen is a disaster”, “my exam is in June and I can’t open the books”, “I want to start running”. Tiny reflects it back and shrinks the mountain to today’s first step, usually 2 to 10 minutes long. Tell Tiny is a chat, so you can keep talking: Tiny remembers the conversation on your device and replies like a caring friend.
 
 For bigger things, pick a pace (gentle, steady or focused), the days that fit your life and a time. Tiny lays out small sessions and only shows you what’s next. If AI is off or you’re offline, Tinydo still gives you simple built-in steps.
 
@@ -71,7 +71,7 @@ Add your exam date and Tiny plans light, regular study sessions with a countdown
 
 Tinydo notices the hours when you actually finish things, what keeps getting pushed back and which kind of help works for you, then suggests a better time for the hard stuff. “What Tiny knows about you” shows all of it in plain words, and one tap makes Tiny forget it. This learning happens on your device and is never sent to us or to the AI.
 
-The Days tab shows what you did each day, your best runs and a calm 8-week chart. Numbers only grow: no red marks, no guilt. With Pro, Patterns shows your best hour, your best day and week over week.
+The Days tab shows what you did each day, your best runs and a calm 8-week chart. Numbers only grow: no red marks, no guilt. Patterns shows your best hour, your best day and week over week.
 
 ### Widgets, Live Activities, Siri and Shortcuts
 
@@ -117,23 +117,23 @@ It’s probably not for you if…:
 
 ## Pricing
 
-Tinydo is free to download and useful without paying. Tinydo Pro is an optional subscription for people who lean on Tiny every day.
+Tinydo is free to download. To use it, you need a Tinydo Pro subscription, weekly, monthly or yearly; there is no free plan. New subscribers can try the monthly plan free for 3 days.
 
-### Free (No time limit)
+### 3-day free trial (Monthly plan, for new subscribers)
 
-- Tell Tiny with AI 3 times a day
-- 1 plan (a goal with sessions over several weeks)
-- Your starter routines, including a meds reminder if you add one during setup
-- Tasks you add yourself, visual timers, reminders and focus sounds
-- Your days, journey chart and “What Tiny knows about you”
+- Everything in Tinydo Pro
+- Chat with Tiny: up to 10 messages a day
+- Tiny reminds you before the trial ends (with notifications on)
+- Cancel at least 24 hours before it ends and you won’t be charged
+- Weekly and yearly have no trial and are billed from the start
 
 ### Tinydo Pro (Weekly, monthly or yearly subscription)
 
-- Think with Tiny up to 40 times a day
-- Unlimited plans and routines
+- Chat with Tiny: up to 40 messages a day
+- Unlimited plans, routines and study plans
+- Visual timers, reminders, medication check-ins and focus sounds
 - Patterns: your best hour, best day and week over week
-- 3-day free trial for new subscribers on the monthly plan
-- Tiny reminds you before the trial ends (with notifications on)
+- Widgets, Live Activities, Siri and iCloud sync
 
 US prices: $4.99 a week, $9.99 a month or $39.99 a year. Prices in other countries are set by the App Store in your currency and shown in the app before you subscribe.
 
@@ -147,7 +147,7 @@ Tinydo (App Store name “Tinydo: ADHD Planner & Focus”) is an iPhone and iPad
 
 ### Can Tinydo break down overwhelming tasks for ADHD?
 
-Yes, that is its core. Type or say the task in your own words, for example “clean the kitchen” or “start my thesis”. With your permission, Tiny uses AI (Claude by Anthropic) to turn it into small steps of a few minutes each, easiest first, and shows only the first one. Big goals become a plan of short sessions on the days you choose. If a step still feels too big, “I’m stuck, make it smaller” splits it into 1–3 minute micro-steps. Without AI, Tinydo uses simple built-in steps.
+Yes, that is its core. Type or say the task in your own words, for example “clean the kitchen” or “start my thesis”. With your permission, Tiny uses AI (Claude by Anthropic) to turn it into small steps of a few minutes each, easiest first, and shows only the first one. Big goals become a plan of short sessions on the days you choose. If a step still feels too big, “I’m stuck, make it smaller” splits it into 1–3 minute micro-steps. Without AI, Tinydo uses simple built-in steps. Tell Tiny is a chat, so you can keep talking: Tiny remembers the conversation on your device and replies like a caring friend.
 
 ### Does Tinydo have a visual timer for time blindness?
 
@@ -167,7 +167,7 @@ Nothing turns red. Tiny asks what got in the way and offers a fix, such as a muc
 
 ### Is Tinydo free? How much does Tinydo Pro cost?
 
-Tinydo is free to download. The free plan includes Tell Tiny with AI 3 times a day, one plan, your starter routines, timers, reminders, focus sounds and history. Tinydo Pro adds up to 40 AI uses a day, unlimited plans and routines, and your focus patterns. Pro is a weekly, monthly or yearly subscription; the monthly plan includes a 3-day free trial for new subscribers, while weekly and yearly are billed from the start. In the US it costs $4.99 a week, $9.99 a month or $39.99 a year; local prices are shown in the app.
+Tinydo is free to download, but using it requires a Tinydo Pro subscription; there is no free plan. Choose weekly, monthly or yearly. The monthly plan includes a 3-day free trial for new subscribers, while weekly and yearly are billed from the start. During the trial Tiny answers up to 10 messages a day; with a paid subscription, up to 40 a day. In the US it costs $4.99 a week, $9.99 a month or $39.99 a year; local prices are shown in the app. Already subscribed? Tap “Restore purchases” on the subscription screen.
 
 ### Does Tinydo need an account, show ads or track me?
 
@@ -175,7 +175,7 @@ No account, no ads and no tracking. Your tasks and history stay on your device a
 
 ### What does Tinydo’s AI see, and can I use the app without AI?
 
-The first time Tiny would use AI, the app asks you and lists what would be sent. If you agree, what you tell Tiny, short summaries of things you told it before, the struggles and hardest time of day you picked at the start, your language and today’s date go to Tinydo’s server and to Claude by Anthropic to write the answer. Tinydo doesn’t store it, Anthropic doesn’t train on it, and it is never sold. If you say no, Tinydo uses built-in steps and sends nothing to the AI. You can change this anytime in Settings → Privacy.
+The first time Tiny would use AI, the app asks you and lists what would be sent. If you agree, what you tell Tiny, the earlier messages of the same chat, short summaries of things you told it before, the struggles and hardest time of day you picked at the start, your language and today’s date go to Tinydo’s server and to Claude by Anthropic to write the answer. Tinydo doesn’t store it, Anthropic doesn’t train on it, and it is never sold. If you say no, Tinydo uses built-in steps and sends nothing to the AI. You can change this anytime in Settings → Privacy.
 
 ### Is Tinydo a medical app? Do I need an ADHD diagnosis?
 

@@ -2,14 +2,14 @@
 
 > Tinydo is an ADHD-friendly planner and focus app for iPhone and iPad. Tell Tiny what's going on and AI breaks it into tiny steps; a visual timer, daily routines, medication and water reminders, focus sounds and gentle follow-ups help you get it done. No account, no ads, no tracking.
 
-Tinydo (App Store name: "Tinydo: ADHD Planner & Focus") is an iPhone and iPad app made by Gokche Tech, an independent developer in Turkey. It is free to download, with an optional Tinydo Pro subscription. It is a planning and focus companion, not a medical app.
+Tinydo (App Store name: "Tinydo: ADHD Planner & Focus") is an iPhone and iPad app made by Gokche Tech, an independent developer in Turkey. It is free to download; using it requires a Tinydo Pro subscription (weekly, monthly or yearly, no free plan), and the monthly plan has a 3-day free trial for new subscribers. Tell Tiny is an ongoing chat with Tiny. It is a planning and focus companion, not a medical app.
 
 Key facts:
 
 - What it is: An ADHD-friendly planner and focus app with AI task breakdown, a visual timer, routines, medication reminders, focus sounds and gentle follow-ups.
 - Who it’s for: People with ADHD (no diagnosis needed), students, parents and anyone who procrastinates or struggles to start.
 - Devices: iPhone and iPad with iOS or iPadOS 18 or later. Syncs through your private iCloud. There is no Android version.
-- Price: Free to download. Optional Tinydo Pro subscription (weekly, monthly or yearly). The monthly plan includes a 3-day free trial for new subscribers.
+- Price: Free to download. Using the app requires a Tinydo Pro subscription (weekly, monthly or yearly); there is no free plan. The monthly plan includes a 3-day free trial for new subscribers.
 - Privacy: No account, no ads, no tracking. The AI is used only if you allow it.
 - Languages: 30, including English, Spanish, Portuguese, French, German, Italian, Dutch, Turkish, Japanese, Korean and Chinese.
 - Made by: Gokche Tech, an independent developer in Turkey.
@@ -17,7 +17,7 @@ Key facts:
 ## Main pages
 
 - [Tinydo website (English)](https://faruksengul.github.io/unstuck/): what the app does, who it is for, pricing and FAQ
-- [Full fact sheet in Markdown](https://faruksengul.github.io/unstuck/llms-full.txt): every feature, the free and Pro plans, privacy and the complete FAQ
+- [Full fact sheet in Markdown](https://faruksengul.github.io/unstuck/llms-full.txt): every feature, the Tinydo Pro subscription and free trial, privacy and the complete FAQ
 - [Tinydo on the App Store](https://apps.apple.com/app/id6824203447): download, App Store ID 6824203447
 - [Privacy Policy](https://faruksengul.github.io/unstuck/privacy/): what stays on the device, what is sent to the AI with consent, retention
 - [Support](https://faruksengul.github.io/unstuck/support/): subscriptions, free trial, reminders, iCloud sync, deleting data; contact support@gokchetech.com
