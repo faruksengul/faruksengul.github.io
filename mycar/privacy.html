@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyCar — Privacy Policy / Gizlilik Politikası</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 24px 20px 80px; line-height: 1.6;
+         color: #1a1a1a; background: #fafafa; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #121212; } }
+  h1 { font-size: 1.7em; margin-bottom: 0; }
+  h2 { font-size: 1.25em; margin-top: 2em; border-bottom: 1px solid #8884; padding-bottom: 6px; }
+  h3 { font-size: 1.05em; margin-top: 1.5em; }
+  .meta { color: #888; font-size: 0.9em; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.92em; }
+  td, th { border: 1px solid #8884; padding: 8px 10px; text-align: left; vertical-align: top; }
+  .lang-divider { margin: 56px 0 8px; border: none; border-top: 3px solid #8886; }
+  code { background: #8882; padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>MyCar — Privacy Policy</h1>
+<p class="meta">Last updated: 23 October 2026 · <a href="#turkce">Türkçe sürüm aşağıdadır</a></p>
+
+<p>MyCar ("the app") is a voice-first driving companion for iPhone and CarPlay, developed by
+Faruk Şengül ("we"). This policy explains what data the app processes, what leaves your device,
+who receives it, and what never happens. It is written to match what the app actually does.</p>
+
+<h2>1. Data that stays on your device</h2>
+<p>The following is stored on your iPhone and is <strong>not uploaded to our servers</strong>:</p>
+<ul>
+  <li><strong>Trip recordings</strong> — routes, distances, speeds and driving statistics</li>
+  <li><strong>Dashcam videos</strong> and their audio</li>
+  <li><strong>Driving notes, parking spots, saved places, fuel logs, vehicles, documents and reminders</strong></li>
+  <li><strong>Shared trip videos</strong> — made on your phone; they go only to the app you pick in the share sheet</li>
+  <li><strong>Contacts</strong> — read on your phone to call people by voice; your contact list is never uploaded (see sections 2 and 3 for the two narrow exceptions)</li>
+</ul>
+<p>When you ask the AI assistant something, a short summary of some of these items may be included in that
+request (see section 4).</p>
+
+<h2>2. Speech recognition</h2>
+<p>The wake word ("MyCar") is recognized only on your iPhone, and only when an on-device speech model exists for
+your language; without one, the wake word stays off and you tap the mic instead. Voice commands are recognized
+with Apple's speech recognition — on your iPhone when that model exists; otherwise Apple may process the
+command's audio on its servers under Apple's privacy policy. To recognize names correctly, the first names of your contacts, your
+vehicles and your saved places may be given to Apple's recognizer as hints. <strong>MyCar never sends your
+voice recordings to our servers.</strong></p>
+
+<h2>3. MyCar's voice (Microsoft text-to-speech)</h2>
+<p>MyCar speaks with Microsoft's online neural text-to-speech, called through our server:</p>
+<ul>
+  <li><strong>Turn-by-turn directions</strong> (street names, distances and, on arrival, the destination street and the
+    weather there) are sent for every user.</li>
+  <li><strong>Everything else MyCar says</strong> — assistant replies, confirmations such as "Calling Anna",
+    read-backs of notes and places — is sent only if you allowed the AI assistant (section 4); otherwise your
+    iPhone's own voice speaks it.</li>
+</ul>
+<p>Our server does not store this text. The onboarding narration and the alert sounds are pre-recorded.</p>
+
+<h2>4. The AI assistant (only with your permission)</h2>
+<p>The cloud AI assistant runs only after you allow it, and you can withdraw that permission at any time in
+<strong>Settings</strong>; local voice commands keep working without it. When allowed, our server forwards the
+following to <strong>Anthropic (Claude)</strong> to generate the reply:</p>
+<ul>
+  <li>what you said or typed (with the speech recognizer's alternative hearings) and the recent conversation;</li>
+  <li>your name, your "about me" text, your driving-experience level and the assistant style you chose, if you gave them;</li>
+  <li>your vehicles: make, model, year, fuel type, rounded mileage, maintenance, inspection and insurance dates,
+    and up to three facts per vehicle you asked it to remember;</li>
+  <li>the labels of your saved places (such as "Home"), trip statistics (number of trips, distance this week,
+    the last trip's distance, duration and hard brakes), whether a parking spot is saved and how many notes you have;</li>
+  <li>your current speed, the weather, and the remaining time and distance of an active route;</li>
+  <li>a photo you attach in AI Repair, for that single request.</li>
+</ul>
+<p><strong>Never sent:</strong> your GPS coordinates and your licence plate. Our server does not store the content
+of these requests; it keeps only counts, timing and errors for usage limits.</p>
+
+<h2>5. Data we process on our servers</h2>
+<p>Our backend runs on Microsoft Azure (Sweden Central, EU). It processes:</p>
+<table>
+  <tr><th>Data</th><th>Purpose</th></tr>
+  <tr><td>A random installation identifier, stored in your iPhone's Keychain (it can remain after the app is deleted; "Delete my data on the server" removes it), the app and iOS version, the last-seen time and an App Attest key identifier</td><td>Authenticating your device and your subscription. It is not your name, phone number or advertising identifier.</td></tr>
+  <tr><td>Usage counters for your installation</td><td>Plan allowances and fair-use limits</td></tr>
+  <tr><td>Purchase records from RevenueCat: product, price, currency, offer code and transaction identifiers</td><td>Unlocking the plan you bought, accounting and fraud prevention</td></tr>
+  <tr><td>The map square around you (about 1 km across; about 50 km for speed cameras)</td><td>Answering speed limits, road alerts and fixed speed cameras from OpenStreetMap data — from our own copy of the map, or fetched for that square from OpenStreetMap's public Overpass servers. These requests are not written to the request logs and are not stored with your identifier.</td></tr>
+  <tr><td>Vehicle make, model and year</td><td>Fetching a studio image of your car from CarImages (carimagesapi.com) through our server</td></tr>
+  <tr><td>Crash and performance diagnostics (Apple MetricKit), linked to the installation identifier</td><td>Fixing crashes and performance problems. Deleted after 60 days.</td></tr>
+  <tr><td>Request logs: IP address, installation identifier, requested path and query, user agent, time and result</td><td>Security, abuse prevention and fair-use limits. Deleted automatically after 60 days. The content of your requests is not logged.</td></tr>
+</table>
+<p>We do not store your location on our servers.</p>
+
+<h2>6. Data sent directly to service providers</h2>
+<p>To provide driving features, the app talks directly to these services; your <strong>location</strong> is sent
+to them only to deliver the feature:</p>
+<ul>
+  <li><strong>Apple</strong> — maps, place search, addresses and routes (MapKit), weather at your location and destination
+    (WeatherKit), speech recognition, Apple Music and the iTunes search for music and podcasts.</li>
+  <li><strong>OpenStreetMap Overpass</strong> (public servers in Germany and Austria) — only when our server cannot be
+    reached: the area of about one kilometre around you, for speed limits and road alerts, and your position, for fixed speed cameras.</li>
+  <li><strong>NHTSA</strong> (the US road-safety agency) — your vehicle's make, model and year, for recall checks.</li>
+  <li><strong>Podcast publishers</strong> — when you play an episode, it streams from the publisher's server, which sees your IP address.</li>
+</ul>
+<p>Payments are processed by Apple, and your subscription status is verified with RevenueCat; we never see your
+payment details.</p>
+
+<h2>7. What we never do</h2>
+<ul>
+  <li>No advertising, no ad SDKs, no advertising identifier (IDFA)</li>
+  <li>No cross-app tracking of any kind</li>
+  <li>No selling or renting of your data</li>
+  <li>No analytics SDKs</li>
+</ul>
+
+<h2>8. Legal bases and transfers</h2>
+<p>We process data to provide the app and your subscription (contract), with your consent for the AI assistant
+(which you can withdraw), and for our legitimate interests in security, fraud prevention and fixing crashes.
+Some of the providers above process data outside Turkey and the EU, including in the United States (Apple,
+Anthropic, Microsoft, RevenueCat).</p>
+
+<h2>9. Retention and deletion</h2>
+<p>In the app, <strong>Settings → Support → "Delete my data on the server"</strong> immediately deletes your
+installation record, usage counters and gift-code redemptions, and the identifier on your iPhone. Security logs and
+crash reports are deleted automatically within 60 days. Purchase records (transaction identifiers, product, price)
+are kept as long as needed for accounting, tax and fraud prevention, and also remain with Apple and RevenueCat.
+Deleting server data does not cancel an App Store subscription — manage that in your Apple ID settings. Data on
+your device is removed by deleting the app.</p>
+
+<h2>10. Your rights (KVKK / GDPR / CCPA)</h2>
+<p>Depending on where you live, you can ask to access, correct, delete or export your personal data, object to its
+processing and withdraw consent. The in-app deletion above exercises deletion at once; for anything else, write to
+us and we will answer promptly. You can also complain to your data-protection authority (in Turkey, the Personal
+Data Protection Authority, KVKK).</p>
+
+<h2>11. Children</h2>
+<p>MyCar is a driving app and is not directed at children under 13 (or the equivalent minimum age where you live).</p>
+
+<h2>12. Changes</h2>
+<p>We update this page when the app's data practices change, and note the date above.</p>
+
+<h2>13. Contact</h2>
+<p>Faruk Şengül — <a href="mailto:sengulfaruk1@gmail.com">sengulfaruk1@gmail.com</a></p>
+
+<hr class="lang-divider" id="turkce">
+
+<h1>MyCar — Gizlilik Politikası</h1>
+<p class="meta">Son güncelleme: 23 Ekim 2026</p>
+
+<p>MyCar ("uygulama"), Faruk Şengül ("biz") tarafından geliştirilen, iPhone ve CarPlay için sesli sürüş yol
+arkadaşıdır. Bu politika uygulamanın hangi veriyi işlediğini, neyin cihazınızdan çıktığını, kime gittiğini ve
+neyin asla yapılmadığını açıklar; uygulamanın gerçek davranışına uyacak şekilde yazılmıştır.</p>
+
+<h2>1. Cihazınızda kalan veriler</h2>
+<p>Aşağıdakiler iPhone'unuzda saklanır ve <strong>sunucularımıza yüklenmez</strong>:</p>
+<ul>
+  <li><strong>Yolculuk kayıtları</strong> — rotalar, mesafeler, hızlar ve sürüş istatistikleri</li>
+  <li><strong>Dashcam videoları</strong> ve sesleri</li>
+  <li><strong>Sürüş notları, park yerleri, kayıtlı yerler, yakıt kayıtları, araçlar, belgeler ve hatırlatmalar</strong></li>
+  <li><strong>Paylaşılan yolculuk videoları</strong> — telefonunuzda hazırlanır; yalnızca paylaşım menüsünde seçtiğiniz uygulamaya gider</li>
+  <li><strong>Rehber</strong> — sesle arama için telefonunuzda okunur; rehberiniz asla yüklenmez (iki dar istisna için bkz. bölüm 2 ve 3)</li>
+</ul>
+<p>Yapay zekâ asistanına bir şey sorduğunuzda bunların bir kısmının kısa özeti o isteğe eklenebilir (bkz. bölüm 4).</p>
+
+<h2>2. Konuşma tanıma</h2>
+<p>Uyandırma kelimesi ("MyCar") yalnızca iPhone'unuzda ve yalnızca diliniz için cihaz içi konuşma modeli varsa
+tanınır; model yoksa uyandırma kelimesi kapalı kalır, mikrofona dokunursunuz. Sesli komutlar Apple'ın konuşma
+tanımasıyla tanınır — model varsa iPhone'unuzda; yoksa komutun sesi, Apple'ın gizlilik politikası kapsamında Apple
+sunucularında işlenebilir. İsimleri
+doğru tanımak için rehberinizdeki kişilerin adları, araçlarınız ve kayıtlı yerleriniz Apple'ın tanıyıcısına ipucu
+olarak verilebilir. <strong>MyCar ses kayıtlarınızı asla sunucularımıza göndermez.</strong></p>
+
+<h2>3. MyCar'ın sesi (Microsoft metinden sese)</h2>
+<p>MyCar, sunucumuz üzerinden çağrılan Microsoft'un çevrim içi nöral metin okuma servisiyle konuşur:</p>
+<ul>
+  <li><strong>Adım adım yol tarifleri</strong> (sokak adları, mesafeler ve varışta hedef sokak ile oradaki hava) her kullanıcı
+    için gönderilir.</li>
+  <li><strong>MyCar'ın söylediği diğer her şey</strong> — asistan yanıtları, "Anna aranıyor" gibi onaylar, not ve yerlerin
+    okunması — yalnızca yapay zekâ asistanına izin verdiyseniz gönderilir (bölüm 4); aksi hâlde iPhone'unuzun kendi sesi okur.</li>
+</ul>
+<p>Sunucumuz bu metni saklamaz. Tanıtım anlatımı ve uyarı sesleri önceden kaydedilmiştir.</p>
+
+<h2>4. Yapay zekâ asistanı (yalnızca izninizle)</h2>
+<p>Bulut yapay zekâ asistanı ancak izin verdikten sonra çalışır; bu izni dilediğiniz an <strong>Ayarlar</strong>'dan geri
+alabilirsiniz, yerel sesli komutlar izin olmadan da çalışır. İzin verdiğinizde sunucumuz yanıtı üretmesi için
+<strong>Anthropic'e (Claude)</strong> şunları iletir:</p>
+<ul>
+  <li>söylediğiniz veya yazdığınız metin (tanıyıcının alternatif duyuşlarıyla) ve son konuşma;</li>
+  <li>verdiyseniz adınız, "hakkımda" metniniz, sürüş deneyimi düzeyiniz ve seçtiğiniz asistan üslubu;</li>
+  <li>araçlarınız: marka, model, yıl, yakıt türü, yuvarlanmış kilometre, bakım, muayene ve sigorta tarihleri ve her araç
+    için hatırlamasını istediğiniz en fazla üç bilgi;</li>
+  <li>kayıtlı yerlerinizin adları ("Ev" gibi), yolculuk istatistikleri (yolculuk sayısı, bu haftaki mesafe, son yolculuğun
+    mesafesi, süresi ve ani frenleri), kayıtlı bir park yeri olup olmadığı ve not sayınız;</li>
+  <li>anlık hızınız, hava durumu ve etkin bir rotanın kalan süresi ile mesafesi;</li>
+  <li>AI Onarım'da eklediğiniz fotoğraf, yalnızca o istek için.</li>
+</ul>
+<p><strong>Asla gönderilmez:</strong> GPS koordinatlarınız ve plakanız. Sunucumuz bu isteklerin içeriğini saklamaz;
+kullanım sınırları için yalnızca sayı, süre ve hata bilgisini tutar.</p>
+
+<h2>5. Sunucularımızda işlenen veriler</h2>
+<p>Arka uç sistemimiz Microsoft Azure'da (İsveç Orta, AB) çalışır ve şunları işler:</p>
+<table>
+  <tr><th>Veri</th><th>Amaç</th></tr>
+  <tr><td>iPhone'unuzun Anahtar Zinciri'nde saklanan rastgele bir kurulum tanımlayıcısı (uygulama silinse de kalabilir; "Sunucudaki verilerimi sil" onu kaldırır), uygulama ve iOS sürümü, son görülme zamanı ve bir App Attest anahtar tanımlayıcısı</td><td>Cihazınızın ve aboneliğinizin doğrulanması. Adınız, telefon numaranız veya reklam kimliğiniz değildir.</td></tr>
+  <tr><td>Kurulumunuza ait kullanım sayaçları</td><td>Plan hakları ve adil kullanım sınırları</td></tr>
+  <tr><td>RevenueCat'ten satın alma kayıtları: ürün, fiyat, para birimi, teklif kodu ve işlem tanımlayıcıları</td><td>Satın aldığınız planın açılması, muhasebe ve dolandırıcılığın önlenmesi</td></tr>
+  <tr><td>Çevrenizdeki harita karesi (yaklaşık 1 km; hız kameraları için yaklaşık 50 km)</td><td>Hız limitleri, yol uyarıları ve sabit hız kameralarının OpenStreetMap verisinden yanıtlanması — haritanın kendi kopyamızdan ya da o kare için OpenStreetMap'in halka açık Overpass sunucularından alınarak. Bu istekler istek kayıtlarına yazılmaz ve tanımlayıcınızla birlikte saklanmaz.</td></tr>
+  <tr><td>Araç marka, model ve yılı</td><td>Aracınızın stüdyo görselinin sunucumuz üzerinden CarImages'tan (carimagesapi.com) getirilmesi</td></tr>
+  <tr><td>Kurulum tanımlayıcısına bağlı çökme ve performans tanılamaları (Apple MetricKit)</td><td>Hataların ve performans sorunlarının giderilmesi. 60 gün sonra silinir.</td></tr>
+  <tr><td>İstek kayıtları: IP adresi, kurulum tanımlayıcısı, istenen yol ve sorgu, kullanıcı aracısı, zaman ve sonuç</td><td>Güvenlik, kötüye kullanımın önlenmesi ve adil kullanım sınırları. 60 gün sonra otomatik silinir. İsteklerinizin içeriği kaydedilmez.</td></tr>
+</table>
+<p>Konumunuzu sunucularımızda saklamayız.</p>
+
+<h2>6. Doğrudan hizmet sağlayıcılara giden veriler</h2>
+<p>Sürüş özelliklerini sunmak için uygulama şu servislerle doğrudan konuşur; <strong>konumunuz</strong> yalnızca ilgili
+özelliği sunmaları için bunlara gider:</p>
+<ul>
+  <li><strong>Apple</strong> — harita, yer arama, adresler ve rotalar (MapKit), bulunduğunuz yerin ve varış noktasının hava
+    durumu (WeatherKit), konuşma tanıma, Apple Music ve müzik ile podcast için iTunes araması.</li>
+  <li><strong>OpenStreetMap Overpass</strong> (Almanya ve Avusturya'daki halka açık sunucular) — yalnızca sunucumuza
+    ulaşılamadığında: hız limitleri ve yol uyarıları için çevrenizdeki yaklaşık bir kilometrelik alan, sabit radarlar için konumunuz.</li>
+  <li><strong>NHTSA</strong> (ABD karayolu güvenliği kurumu) — geri çağırma kontrolü için aracınızın marka, model ve yılı.</li>
+  <li><strong>Podcast yayıncıları</strong> — bir bölümü çaldığınızda yayıncının sunucusundan akar; sunucu IP adresinizi görür.</li>
+</ul>
+<p>Ödemeleri Apple işler, abonelik durumunuz RevenueCat ile doğrulanır; ödeme bilgilerinizi asla görmeyiz.</p>
+
+<h2>7. Asla yapmadıklarımız</h2>
+<ul>
+  <li>Reklam yok, reklam SDK'sı yok, reklam kimliği (IDFA) yok</li>
+  <li>Uygulamalar arası takip yok</li>
+  <li>Veri satışı veya kiralaması yok</li>
+  <li>Analitik SDK'sı yok</li>
+</ul>
+
+<h2>8. Hukuki dayanak ve aktarımlar</h2>
+<p>Verileri uygulamayı ve aboneliğinizi sunmak için (sözleşme), yapay zekâ asistanı için açık rızanızla (geri
+alabilirsiniz) ve güvenlik, dolandırıcılığın önlenmesi ve hataların giderilmesindeki meşru menfaatimiz için işleriz.
+Yukarıdaki sağlayıcıların bir kısmı veriyi Türkiye ve AB dışında, Amerika Birleşik Devletleri dahil işler (Apple,
+Anthropic, Microsoft, RevenueCat).</p>
+
+<h2>9. Saklama ve silme</h2>
+<p>Uygulamada <strong>Ayarlar → Destek → "Sunucudaki verilerimi sil"</strong>, kurulum kaydınızı, kullanım sayaçlarınızı ve
+hediye kodu kullanımlarınızı ve iPhone'unuzdaki tanımlayıcıyı hemen siler. Güvenlik kayıtları ve çökme raporları 60 gün
+içinde kendiliğinden silinir. Satın alma kayıtları (işlem tanımlayıcıları, ürün, fiyat) muhasebe, vergi ve dolandırıcılığın
+önlenmesi için gerektiği sürece saklanır ve Apple ile RevenueCat'te de kalır. Sunucu verilerini silmek App Store
+aboneliğinizi iptal etmez — aboneliği Apple ID ayarlarınızdan yönetin. Cihazınızdaki veriler uygulamayı silmekle kalkar.</p>
+
+<h2>10. Haklarınız (KVKK / GDPR / CCPA)</h2>
+<p>Bulunduğunuz yere göre kişisel verilerinize erişmeyi, düzeltilmesini, silinmesini veya aktarılmasını isteyebilir,
+işlenmesine itiraz edebilir ve rızanızı geri alabilirsiniz. Yukarıdaki uygulama içi silme, silme hakkını hemen kullanmanızı
+sağlar; diğer talepler için bize yazın, en kısa sürede yanıtlayalım. Kişisel Verileri Koruma Kurumu'na (KVKK) veya
+bulunduğunuz ülkenin veri koruma otoritesine şikâyette de bulunabilirsiniz.</p>
+
+<h2>11. Çocuklar</h2>
+<p>MyCar bir sürüş uygulamasıdır; 13 yaş altına (veya bulunduğunuz ülkedeki eşdeğer asgari yaşa) yönelik değildir.</p>
+
+<h2>12. Değişiklikler</h2>
+<p>Veri uygulamaları değiştiğinde bu sayfa güncellenir ve yukarıdaki tarih yenilenir.</p>
+
+<h2>13. İletişim</h2>
+<p>Faruk Şengül — <a href="mailto:sengulfaruk1@gmail.com">sengulfaruk1@gmail.com</a></p>
+
+</body>
+</html>

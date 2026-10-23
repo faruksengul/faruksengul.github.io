@@ -1,0 +1,53 @@
+# MyCar
+
+> MyCar is a voice-first AI driving assistant app for iPhone that works with Apple CarPlay. It combines turn-by-turn navigation with voice guidance, an opt-in AI co-driver (Anthropic Claude), nearby places by voice, a trip log, a garage with maintenance reminders and a dashcam in one app, in 15 languages. On the App Store it is listed as "MyCar: Play AI Assistant" (localized, e.g. Turkish "MyCar: Play AI Asistan"). Developer: Faruk Şengül.
+
+Last updated: 2026-10-23
+
+Key facts:
+
+- Platform: iPhone app (iOS). There is no Android version.
+- Car screen: in cars with Apple CarPlay, MyCar shows its own map with turn-by-turn guidance, search, nearby places, recent destinations, saved parking spots ("Where's my car") and a voice screen with the mic and the "MyCar" wake word. Turn guidance also appears on the instrument cluster or head-up display in cars that support it. MyCar holds Apple's CarPlay entitlements for navigation apps and voice-based conversational apps. The car-screen map also shows your speed and the road's speed limit; music, garage, trips and themes are not on the car screen.
+- Without CarPlay: on the iPhone, MyCar works in any car (phone mounted, landscape dashboard). It is an app, not an adapter or hardware box, and it does not add CarPlay to a car that lacks it.
+- Voice: wake word "MyCar" while the app is open or the iPhone is connected to CarPlay. The wake word is recognized on the device and pauses while music or other audio plays through CarPlay (the mic button still works); commands use Apple speech recognition; voice recordings are never sent to MyCar. About two dozen everyday commands (route, nearby, call, note, music, trip, weather) work without the cloud AI.
+- AI co-driver: Anthropic's Claude models through MyCar's server. Paid plans only, and only after the user allows it. It receives question text, not audio, and never GPS coordinates. Turn-by-turn guidance is spoken in a natural voice for every user; conversational AI replies use the natural voice once AI is allowed.
+- Navigation: turn-by-turn with voice guidance; Apple Maps with traffic-aware ETAs; spoken faster-route offers (ETA re-checked every 3 minutes); weather at the destination spoken at route start; a whole street as the destination. No offline maps, lane guidance or multi-stop routes.
+- Nearby by voice (12 place types): fuel, EV charging, food, parking, grocery, restroom, pharmacy, hospital, ATM, car wash, mechanic, tire shop.
+- On the road: speed and speed-limit display on the phone and the CarPlay map; a speed alarm, on by default (the road's limit + 5 km/h on roads posted at 50 km/h or more, never below 50 km/h) and switchable off; mirrored HUD mode, fixed speed-camera alerts only where legal (OpenStreetMap data; off in Germany, Switzerland, France, Egypt and Saudi Arabia; no mobile, average-speed or red-light cameras), 2-hour break reminder, check-in after a hard brake.
+- Trips: logged automatically when the iPhone connects to CarPlay or via a user-made car-Bluetooth Shortcut; distance, time, fuel estimate; parking spot saved at trip end; manual business-trip marking and CSV mileage report. Trip records stay on the iPhone.
+- Dashcam: iPhone rear camera while MyCar is on screen (sound only if the user switches it on; no parking mode); automatic clip lock after a severe brake; 4 GB loop storage; stamped ±15 s evidence clip; incident PDF with the video's SHA-256 fingerprint. Videos stay in the app.
+- Garage: multiple vehicles; date and mileage reminders; document wallet with expiry alerts; offline VIN decoding; US recall check (NHTSA, by make/model/year); fuel and charge log; OBD2 live data and stored fault codes with a Bluetooth LE ELM327 adapter (not included).
+- AI Repair: a first opinion (possible causes and urgency) from a description or photo. It is not a mechanic and not a diagnosis.
+- Music and media: Apple Music control (full tracks need Apple Music) and podcasts.
+- Personalization: 49 dashboard themes (phone), a CarPlay dashboard widget, a Live Activity while recording, Siri Shortcuts, custom welcome and goodbye sounds.
+- Languages (15): English, Turkish, German, French, Spanish, Italian, Dutch, Portuguese (Brazil), Russian, Arabic, Hindi, Japanese, Korean, Chinese (Simplified), Chinese (Traditional).
+- Pricing: MyCar Pro, MyCar Plus and MyCar Max are monthly auto-renewing App Store subscriptions. They unlock the driving features and the AI co-driver; plans differ in AI replies. The map is Apple Maps on every plan. There is no trial period. Prices vary by country and are shown in the App Store. No ads.
+- Privacy: no ads, no advertising or third-party analytics SDKs, no cross-app tracking, no sale or rental of data. Trips, videos, garage and documents stay on the device. Users can delete their server-side data in the app (Settings > Support > "Delete my data on the server").
+- Safety: MyCar is a driving aid; the driver is always responsible for driving safely and following traffic laws.
+
+## Pages
+
+- [MyCar (English): overview, features, FAQ, support](https://faruksengul.github.io/mycar/): what MyCar is, feature facts, answered questions, contact, subscriptions, data deletion
+- [MyCar (Türkçe)](https://faruksengul.github.io/mycar/tr): the same overview, FAQ and support written for readers in Turkish
+- [MyCar (Deutsch)](https://faruksengul.github.io/mycar/de): the same overview, FAQ and support written for readers in German
+- [MyCar (Français)](https://faruksengul.github.io/mycar/fr): the same overview, FAQ and support written for readers in French
+- [MyCar (Español)](https://faruksengul.github.io/mycar/es): the same overview, FAQ and support written for readers in Spanish
+- [MyCar (Italiano)](https://faruksengul.github.io/mycar/it): the same overview, FAQ and support written for readers in Italian
+- [MyCar (Nederlands)](https://faruksengul.github.io/mycar/nl): the same overview, FAQ and support written for readers in Dutch
+- [MyCar (Português (Brasil))](https://faruksengul.github.io/mycar/pt-BR): the same overview, FAQ and support written for readers in Portuguese (Brazil)
+- [MyCar (Русский)](https://faruksengul.github.io/mycar/ru): the same overview, FAQ and support written for readers in Russian
+- [MyCar (العربية)](https://faruksengul.github.io/mycar/ar): the same overview, FAQ and support written for readers in Arabic
+- [MyCar (हिन्दी)](https://faruksengul.github.io/mycar/hi): the same overview, FAQ and support written for readers in Hindi
+- [MyCar (日本語)](https://faruksengul.github.io/mycar/ja): the same overview, FAQ and support written for readers in Japanese
+- [MyCar (한국어)](https://faruksengul.github.io/mycar/ko): the same overview, FAQ and support written for readers in Korean
+- [MyCar (简体中文)](https://faruksengul.github.io/mycar/zh-Hans): the same overview, FAQ and support written for readers in Chinese (Simplified)
+- [MyCar (繁體中文)](https://faruksengul.github.io/mycar/zh-Hant): the same overview, FAQ and support written for readers in Chinese (Traditional)
+- [Support: contact, subscriptions, data deletion](https://faruksengul.github.io/mycar/support): English and Turkish
+- [Privacy Policy](https://faruksengul.github.io/mycar/privacy): what stays on the device, what the server processes, AI data flows, deletion (English and Turkish)
+- [Terms of Use](https://faruksengul.github.io/mycar/terms): service, safety, AI content, subscriptions (English and Turkish)
+- [MyCar on the App Store](https://apps.apple.com/app/id6803210824): download, screenshots, ratings, in-app purchases
+
+## Optional
+
+- [Apple standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/): licence terms for App Store apps
+- Support email: sengulfaruk1@gmail.com
