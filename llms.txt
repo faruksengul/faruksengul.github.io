@@ -20,7 +20,7 @@ Key facts:
 - [Full fact sheet in Markdown](https://faruksengul.github.io/unstuck/llms-full.txt): every feature, the Tinydo Pro subscription and free trial, privacy and the complete FAQ
 - [Tinydo on the App Store](https://apps.apple.com/app/id6824203447): download, App Store ID 6824203447
 - [Privacy Policy](https://faruksengul.github.io/unstuck/privacy/): what stays on the device, what is sent to the AI with consent, retention
-- [Support](https://faruksengul.github.io/unstuck/support/): subscriptions, free trial, reminders, iCloud sync, deleting data; contact support@gokchetech.com
+- [Support](https://faruksengul.github.io/unstuck/support/): subscriptions, free trial, reminders, iCloud sync, deleting data; contact sengulfaruk1@gmail.com
 
 ## Other languages
 
