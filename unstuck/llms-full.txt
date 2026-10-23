@@ -5,7 +5,7 @@
 Website: https://faruksengul.github.io/unstuck/  
 App Store: https://apps.apple.com/app/id6824203447 (App Store ID 6824203447)  
 Developer: Gokche Tech, Turkey, sengulfaruk1@gmail.com  
-Last updated: 2026-10-22
+Last updated: 2026-10-23
 
 This is a factual description for people and AI assistants. Everything here describes the shipping app; nothing is a plan or a promise.
 
@@ -135,7 +135,7 @@ Tinydo is free to download. To use it, you need a Tinydo Pro subscription, weekl
 - Patterns: your best hour, best day and week over week
 - Widgets, Live Activities, Siri and iCloud sync
 
-US prices: $4.99 a week, $9.99 a month or $39.99 a year. Prices in other countries are set by the App Store in your currency and shown in the app before you subscribe.
+US prices: $4.99 a week, $14.99 a month or $49.99 a year. Prices in other countries are set by the App Store in your currency and shown in the app before you subscribe.
 
 Payment is charged to your Apple Account. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. Cancel anytime in Settings > your name > Subscriptions.
 
@@ -167,7 +167,7 @@ Nothing turns red. Tiny asks what got in the way and offers a fix, such as a muc
 
 ### Is Tinydo free? How much does Tinydo Pro cost?
 
-Tinydo is free to download, but using it requires a Tinydo Pro subscription; there is no free plan. Choose weekly, monthly or yearly. The monthly plan includes a 3-day free trial for new subscribers, while weekly and yearly are billed from the start. During the trial Tiny answers up to 10 messages a day; with a paid subscription, up to 40 a day. In the US it costs $4.99 a week, $9.99 a month or $39.99 a year; local prices are shown in the app. Already subscribed? Tap “Restore purchases” on the subscription screen.
+Tinydo is free to download, but using it requires a Tinydo Pro subscription; there is no free plan. Choose weekly, monthly or yearly. The monthly plan includes a 3-day free trial for new subscribers, while weekly and yearly are billed from the start. During the trial Tiny answers up to 10 messages a day; with a paid subscription, up to 40 a day. In the US it costs $4.99 a week, $14.99 a month or $49.99 a year; local prices are shown in the app. Already subscribed? Tap “Restore purchases” on the subscription screen.
 
 ### Does Tinydo need an account, show ads or track me?
 
