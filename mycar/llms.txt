@@ -1,6 +1,6 @@
 # MyCar
 
-> MyCar is a voice-first AI driving assistant app for iPhone that works with Apple CarPlay. It combines turn-by-turn navigation with voice guidance, an opt-in AI co-driver (Anthropic Claude), nearby places by voice, a trip log, a garage with maintenance reminders and a dashcam in one app, in 15 languages. On the App Store it is listed as "MyCar: Play AI Assistant" (localized, e.g. Turkish "MyCar: Play AI Asistan"). Developer: Faruk Şengül.
+> MyCar is a voice-first AI driving assistant app for iPhone that works with Apple CarPlay. It combines turn-by-turn navigation with voice guidance, an opt-in AI co-driver (Anthropic Claude), nearby places by voice, a trip log, a garage with maintenance reminders and a dashcam in one app, in 15 languages. On the App Store it is listed as "MyCar: AI Assistant" (localized, e.g. Turkish "MyCar: AI Asistan"). Developer: Faruk Şengül.
 
 Last updated: 2026-10-23
 
