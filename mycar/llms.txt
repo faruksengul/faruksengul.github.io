@@ -1,6 +1,6 @@
 # MyCar
 
-> MyCar is a voice-first AI driving assistant app for iPhone that works with Apple CarPlay. It combines turn-by-turn navigation with voice guidance, an opt-in AI co-driver (Anthropic Claude), nearby places by voice, a trip log, a garage with maintenance reminders and a dashcam in one app, in 15 languages. On the App Store it is listed as "MyCar: AI Assistant" (localized, e.g. Turkish "MyCar: AI Asistan"). Developer: Faruk Şengül.
+> MyCar is a voice-first AI driving assistant app for iPhone that works with Apple CarPlay. It combines turn-by-turn navigation with voice guidance, an opt-in AI co-driver (Anthropic Claude), nearby places by voice, a trip log, a garage with maintenance reminders and a dashcam in one app, in 33 languages. On the App Store it is listed as "MyCar: AI Assistant" (localized, e.g. Turkish "MyCar: AI Asistan"). Developer: Faruk Şengül.
 
 Last updated: 2026-10-23
 
@@ -22,7 +22,7 @@ Key facts:
 - AI Repair: a first opinion (possible causes and urgency) from a description or photo. It is not a mechanic and not a diagnosis.
 - Music and media: Apple Music control (full tracks need Apple Music) and podcasts.
 - Personalization: 49 dashboard themes (phone), a CarPlay dashboard widget, a Live Activity while recording, Siri Shortcuts, custom welcome and goodbye sounds.
-- Languages (15): English, Turkish, German, French, Spanish, Italian, Dutch, Portuguese (Brazil), Russian, Arabic, Hindi, Japanese, Korean, Chinese (Simplified), Chinese (Traditional).
+- Languages (33): English, Turkish, German, French, Spanish, Italian, Dutch, Portuguese (Brazil), Russian, Arabic, Hindi, Japanese, Korean, Chinese (Simplified), Chinese (Traditional), Polish, Ukrainian, Romanian, Czech, Slovak, Croatian, Hungarian, Greek, Swedish, Danish, Norwegian (Bokmål), Finnish, Catalan, Hebrew, Indonesian, Malay, Thai, Vietnamese.
 - Pricing: MyCar Pro, MyCar Plus and MyCar Max are monthly auto-renewing App Store subscriptions. They unlock the driving features and the AI co-driver; plans differ in AI replies. The map is Apple Maps on every plan. There is no trial period. Prices vary by country and are shown in the App Store. No ads.
 - Privacy: no ads, no advertising or third-party analytics SDKs, no cross-app tracking, no sale or rental of data. Trips, videos, garage and documents stay on the device. Users can delete their server-side data in the app (Settings > Support > "Delete my data on the server").
 - Safety: MyCar is a driving aid; the driver is always responsible for driving safely and following traffic laws.
